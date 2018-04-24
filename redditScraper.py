@@ -5,10 +5,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer as SIA
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Set your header according to the form below
-# <platform>:<app ID>:<version string> (by /u/<reddit username>)
 
-# Add your username below
 hdr = {'User-Agent': 'windows:r/eth.single.result:v1.0' +'(by /u/<VladHutupasu>)'}
 # url = 'https://www.reddit.com/r/bitcoin/.json'
 # url = 'https://www.reddit.com/r/btc/.json'
@@ -24,9 +21,7 @@ print('Initial size->'+str(len(data_all)))
 while len(data_all) <= 100000:
     #request every 2 sec
     time.sleep(2)
-    # print('DATA ALL size->>'+str(len(data_all)))
     last = data_all[-1]['data']['name']
-    # print('LAST->>>'+str(last))
 
     url = 'https://www.reddit.com/r/eth/.json?after=' + str(last)
     req = requests.get(url, headers=hdr)
@@ -47,9 +42,6 @@ positiveCounter=0
 negativeCounter=0
 for post in data_all:
     res = sia.polarity_scores(post['data']['title'])
-    # Uncomment the following line to get the polarity results
-    # for each post as shown in article's image
-    # print(res)
     if res['compound'] > 0.2:
         pos_list.append(post['data']['title'])
         positiveCounter+=1
@@ -65,6 +57,7 @@ with open("total_titles.txt", "w", encoding='utf-8',
         f_all.write(post['data']['title'] + "\n")
 
 print('Positive: '+str(positiveCounter)+' | Negative: '+str(negativeCounter)+' | Neutral: '+str(neutralCounter))
+
 # For the bar-chart distribution
 y_val = [neutralCounter, negativeCounter, positiveCounter]
 x_val = [1, 2, 3]
