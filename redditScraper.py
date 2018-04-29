@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+# Scraping the reddit pages (topics)
+
 hdr = {'User-Agent': 'windows:r/eth.single.result:v1.0' +'(by /u/<VladHutupasu>)'}
 # url = 'https://www.reddit.com/r/bitcoin/.json'
 # url = 'https://www.reddit.com/r/btc/.json'
@@ -34,12 +36,18 @@ while len(data_all) <= 100000:
 
 print('End size->'+str(len(data_all))+'Num of posts->'+str(num_of_posts))
 
+
+
+
+# Sentiment analysis using SIA
+
 sia = SIA()
 pos_list = []
 neg_list = []
-neutralCounter=0
-positiveCounter=0
-negativeCounter=0
+neutralCounter = 0
+positiveCounter = 0
+negativeCounter = 0
+
 for post in data_all:
     res = sia.polarity_scores(post['data']['title'])
     if res['compound'] > 0.2:
@@ -58,7 +66,11 @@ with open("total_titles.txt", "w", encoding='utf-8',
 
 print('Positive: '+str(positiveCounter)+' | Negative: '+str(negativeCounter)+' | Neutral: '+str(neutralCounter))
 
-# For the bar-chart distribution
+
+
+
+# Bar-chart distribution representation
+
 y_val = [neutralCounter, negativeCounter, positiveCounter]
 x_val = [1, 2, 3]
 plt.style.use('ggplot')
