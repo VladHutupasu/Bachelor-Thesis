@@ -27,15 +27,25 @@ market_info = market_info.assign(**kwargs)
 kwargs = {'Close Off High': lambda x: 2 * (x['High'] - x['Close']) / (x['High'] - x['Low']) - 1,
           'Volatility': lambda x: (x['High'] - x['Low']) / (x['Open'])}
 market_info = market_info.assign(**kwargs)
+
+#add Movement column
+kwargs = {'Movement': lambda x: (x['Open'] - x['Close'])}
+market_info = market_info.assign(**kwargs)
+
+
+#Replacing Movement values wuth actual name UP or DOWN
+for i in range(len(market_info)):
+
+    x = market_info['Movement'][i]
+    if (x>0):
+        market_info['Movement'][i] = 'Down'
+    elif (x<0):
+        market_info['Movement'][i] = 'Up'
+
 # print(market_info)
 
-
-
-
-
-
 # drop rest keep only Close,Volume,COH & Vola
-model_data = market_info[['Date'] + [metric for metric in ['Close', 'Volume', 'Close Off High', 'Volatility']]]
+model_data = market_info[['Date'] + [metric for metric in ['Close', 'Volume', 'Close Off High', 'Volatility', 'Movement']]]
 # reverse array for ascending order
 model_data = model_data.sort_values(by='Date')
 # print(type(model_data))
@@ -45,13 +55,14 @@ split_date = '2015-06-01'
 final_data = model_data[model_data['Date'] > split_date]
 final_data = final_data.drop('Date', 1)
 # pos 0 ->> 2018
-print(final_data)
+# print(final_data)
 
 with open('features.csv', 'w') as csvfile:
-    fieldnames = ['Close', 'Volume', 'Close Off High', 'Volatility']
+    fieldnames = ['Close', 'Volume', 'Close Off High', 'Volatility', 'Movement']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
 
     for i in range(len(final_data)):
-        writer.writeheader()
+
         writer.writerow({'Close': final_data['Close'][i], 'Volume': final_data['Volume'][i],
-                     'Close Off High': final_data['Close Off High'][i], 'Volatility': final_data['Volatility'][i]})
+                     'Close Off High': final_data['Close Off High'][i], 'Volatility': final_data['Volatility'][i], 'Movement': final_data['Movement'][i]})
