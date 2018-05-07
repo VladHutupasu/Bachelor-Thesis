@@ -14,10 +14,10 @@ bitcoin_market_info['Volume'] = bitcoin_market_info['Volume'].astype('int64')
 
 # --Create Day Diff column with values--
 market_info = bitcoin_market_info
-market_info = market_info[market_info['Date'] >= '2016-01-01']
+market_info = market_info[market_info['Date'] >= '2017-01-01']
+market_info = market_info[market_info['Date'] < '2018-01-01']
 kwargs = {'Day Diff': lambda x: (x['Open'] - x['Close']) / x['Open'] *10000}
 market_info = market_info.assign(**kwargs)
-# print(market_info)
 
 
 # --Create Close Off High and Volatility column--
@@ -28,7 +28,7 @@ market_info = market_info.assign(**kwargs)
 kwargs = {'Close Off High': lambda x: ((2 * (x['High'] - x['Close'])) / (x['High'] - x['Low']) -1) *10000,
           'Volatility': lambda x: (x['High'] - x['Low']) / (x['Open'])}
 market_info = market_info.assign(**kwargs)
-print(market_info)
+# print(market_info)
 
 #add Movement column
 # kwargs = {'Movement': lambda x: (x['Open'] - x['Close'])}
@@ -36,12 +36,12 @@ print(market_info)
 
 # market_info['Movement Up/Down'] = Series(np.random.randn(len(market_info['Open'])), index=market_info.index)
 market_info = market_info.assign(Movement=pd.Series(np.random.randn(len(market_info['Open']))).values)
-# print(market_info)
+print(market_info)
 
 
-
+i=120
 #Replacing Movement values wuth actual name UP or DOWN
-for i in range(len(market_info)-1):
+while i <(len(market_info)-1):   # -1 because we cannot compare the last day with the next one
 
     market_info['Movement'][i] = market_info['Close'][i] - market_info['Close'][i+1]
     x = market_info['Movement'][i]
@@ -49,6 +49,7 @@ for i in range(len(market_info)-1):
         market_info['Movement'][i] = 'Down'
     elif (x<0):
         market_info['Movement'][i] = 'Up'
+    i=i+1
 
 # print(market_info)
 
@@ -62,16 +63,17 @@ model_data = market_info[['Date'] + [metric for metric in ['Volume', 'Close Off 
 split_date = '2015-06-01'
 final_data = model_data[model_data['Date'] > split_date]
 # final_data = final_data.drop('Date', 1)
-final_data = final_data.drop(final_data.index[850])
+final_data = final_data.drop(final_data.index[len(final_data)-1]) #dropping the last row that doesnt have movement
 
-# print(final_data)
+print(final_data)
 
-with open('features.csv', 'w') as csvfile:
+with open('features2017test.csv', 'w') as csvfile:
     fieldnames = ['Date', 'Volume', 'Close Off High', 'Day Diff', 'Volatility', 'Movement']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
-
-    for i in range(len(final_data)):
+    i=120
+    while i < (len(market_info) - 1):
 
         writer.writerow({'Date': final_data['Date'][i], 'Volume': final_data['Volume'][i],
                      'Close Off High': final_data['Close Off High'][i], 'Day Diff': final_data['Day Diff'][i], 'Volatility': final_data['Volatility'][i], 'Movement': final_data['Movement'][i]})
+        i=i+1
