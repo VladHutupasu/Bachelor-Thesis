@@ -1,0 +1,32 @@
+Just finished this write-up explaining the Bitcoin/Bitcoin Cash Hard Fork To Newbies
+I'm compiling simple explanations of things in the Bitcoin space over at /r/BitcoinExplained and I'd love to have you add this as a guest post. Would you be interested if I made you an approved submitter?
+1. Bcash, aka Bitcoin Cash, is basically a one-man's coin, although he has quite a few influential minions.
+
+2. This man is Jihan Wu. He is owner of Bitmain, a mining hardware (aka miners) manufacturer that produces most of all miners in the world.
+
+3. Bitmain's miners have a secretly embedded cheat named Covert AsicBoost, which gives Jihan's mining farms (but not his customers!) advantages in mining, which results in Bitmain's monopoly in mining industry.
+
+4. Covert AsicBoost is unintentionally disabled by SegWit, a newly activated feature with many merits that gets intensively attacked.
+
+5. Bcash was live at the same time as the starting of the activation of SegWit.
+
+6. Bcash is basically 100% Bitcoin, with SegWit removed, plus a minor modification claimed to be a better scaling solution.
+
+7. Besides Covert AsicBoost, Bitmain's miners had a secretly embedded backdoor named AntBleed. It gave Jihan the power to shutdown any Bitmain miner in the world remotely.
+
+7. Jihan publicly stated he'd attack Bitcoin with his hashpower when Bcash was being created. (He controls a significant proportion of the overall hashpower.) He also implicated he'd use AntBleed in the attack.
+
+Note that unlike the allegations about the devs who created SegWit, Covert AsicBoost and AntBleed have solid evidence and are acknowledged by Jihan/Bitmain.
+
+By understanding who is behind Bcash and what he has done / what kind of person he is, you can draw a conclusion by yourself. This includes 1) why Bcash came into existence? 2) why they attack SegWit?
+
+Bcash has few developers, of which none is well recognized, and near zero development activities. Bitcoin has more than 400 developers, of which some are well recognized world leading cryptography/cryptocurrency experts. It should be easy to draw the conclusion which is better without going into any technical detail.
+Thank you for the succinct and objective explanation! The analogies are fantastically simple, and I especially like your description of where and how this "segwit" and "lightning network" stuff fit in with the original idea. I think it's important not to try and condense these details into only a few sentences (as is easily done on the internet), but they also shouldn't be buried in amongst a bunch of technical mumbo jumbo that makes the rest of us go "yeah sure, okay". I think you've succeeded in hitting that sweet in the middle. Thank you.
+Fantastic and not loaded. Congratulations on that. I would have found that difficult.
+
+My only input is the claim that coinbase is the most popular exchange. This is simply not true. As fast as coinbase is growing, so are the others. And coinbase is still quite small with mostly US customers. The US bitcoiner  population is also quite small in comparison to other countries. For example, I would hazard a guess that there's more bitcoin in Iran than the US - from years ago. And Iranians are serious HODLers, with no intention of ever selling back to fiat. They are in it for the dream of no more American built missiles barraging down on their villages.
+
+I recon coinbase is tiny compared to the bigger japanese exchanges. Bitstamp is way bigger as well.
+keep it up with the work
+Love the post. Very informative and easy to understand. Will be sharing it with all my friends. Thanks. Keep up the good work
+Awesome article.

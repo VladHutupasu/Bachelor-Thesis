@@ -2,6 +2,8 @@ import pandas as pd
 import time
 import csv
 import numpy as np
+from nltk.sentiment.vader import SentimentIntensityAnalyzer as SIA
+
 
 # --Get market info for bitcoin from the start of April, 2013 to the current day
 bitcoin_market_info = pd.read_html(
@@ -14,7 +16,7 @@ market_info = bitcoin_market_info
 
 #--DATA only for 2017--
 # market_info = market_info[market_info['Date'] >= '2017-01-01']
-market_info = market_info[market_info['Date'] >= '2018-01-01']
+market_info = market_info[market_info['Date'] >= '2018-01-02']
 
 #--Create Day Diff column with values--
 kwargs = {'Day Diff': lambda x: (x['Open'] - x['Close']) / x['Open'] *10000}
@@ -62,9 +64,50 @@ model_data = market_info[['Date', 'Close', 'Volume', 'Close Off High', 'Day Diff
 model_data = model_data.drop(model_data.index[len(model_data)-1])
 print(model_data)
 
+#------------------------------------------------------------------------------------------------------------------------
+sia = SIA()
+pos_list = []
+neg_list = []
+neutralCounter = 0
+positiveCounter = 0
+negativeCounter = 0
+
+fileCounter = 1
+i = 2 #=---from 18 May ->January 2
+sentimentList=[]
+j=0
+
+
+while fileCounter < 148:
+
+    with open('redditComments/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
+        fileCounter += 1
+        firstLine = file.readlines(1)
+
+        if 'Daily Discussion,' not in firstLine[0]:
+            continue
+
+        for line in file:
+            res = sia.polarity_scores(line)
+            if res['compound'] > 0.2:
+                positiveCounter+=1
+            elif res['compound'] < -0.2:
+                negativeCounter+=1
+            else:
+                neutralCounter+=1
+
+    # totalSentiment = positiveCounter+negativeCounter+neutralCounter
+    totalSentiment = positiveCounter+negativeCounter
+    sentimentList.append((positiveCounter-negativeCounter)/totalSentiment)
+
+
+print('Length is'+str(len(sentimentList)))
+
+#-------------------------------------------------------------------------------------------------------------------------
+
 
 with open('2018_test_data.csv', 'w') as csvfile:
-    fieldnames = ['Date', 'Close', 'Volume', 'Close Off High', 'Day Diff', 'Volatility', 'Movement']
+    fieldnames = ['Date', 'Close', 'Volume', 'Close Off High', 'Day Diff', 'Volatility', 'SIA', 'Movement']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
 
@@ -73,5 +116,5 @@ with open('2018_test_data.csv', 'w') as csvfile:
 
         writer.writerow({'Date': model_data['Date'][i], 'Close': model_data['Close'][i], 'Volume': model_data['Volume'][i],
                          'Close Off High': model_data['Close Off High'][i], 'Day Diff': model_data['Day Diff'][i],
-                         'Volatility': model_data['Volatility'][i], 'Movement': model_data['Movement'][i]})
+                         'Volatility': model_data['Volatility'][i], 'SIA': sentimentList[i], 'Movement': model_data['Movement'][i]})
         i=i+1
