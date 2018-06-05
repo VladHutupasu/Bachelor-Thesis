@@ -8,26 +8,27 @@ import seaborn as sns; sns.set(font_scale=1.2)
 # Pickle package
 import pickle
 
-def predict_movement(close_off_high, sia):
-    if(model.predict([[close_off_high, sia]])) == 0:
+def predict_movement(day_diff, volatility, sia):
+    if(model.predict([[day_diff, volatility, sia]])) == 0:
         return 'Down'
     else:
         return 'Up'
+    #google trends, bitcoinmarkets
 
-train_data = pd.read_csv('try2.csv')
-test_data = pd.read_csv('try1.csv')
+train_data = pd.read_csv('trainMe.csv')
+test_data = pd.read_csv('testMe.csv')
 
 print('Length train data: '+str(len(train_data)))
 print('Length test data: '+str(len(test_data)))
 
 # Plot two features
-sns.lmplot('Close Off High', 'Day Diff', data=train_data, hue='Movement',
+sns.lmplot('Day Diff', 'SIA', data=train_data, hue='Movement',
            palette='Set1', fit_reg=False, scatter_kws={"s": 70})
 plt.show()
 
 
 # Specify inputs for the model
-imp_features = train_data[['Close Off High', 'SIA']].as_matrix()
+imp_features = train_data[['Day Diff', 'SIA2', 'SIA']].as_matrix()
 movement_label = np.where(train_data['Movement']=='Up', 1, 0)
 
 
@@ -35,7 +36,7 @@ movement_label = np.where(train_data['Movement']=='Up', 1, 0)
 
 
 # PCA fitting
-PCA = pca.PCA(n_components=2)
+PCA = pca.PCA(n_components=3)
 PCA.fit(imp_features)
 new_features = PCA.transform(imp_features)
 
@@ -50,7 +51,7 @@ accuracy=0
 
 while i < len(test_data):
 
-    result = predict_movement(test_data['Close Off High'][i], test_data['SIA'][i])
+    result = predict_movement(test_data['Day Diff'][i], test_data['SIA2'][i], test_data['SIA'][i])
     if(result == test_data['Movement'][i]):
         print('Accuracy result for: ' + test_data['Date'][i] + result + ' -> TRUE')
         accuracy=accuracy+1

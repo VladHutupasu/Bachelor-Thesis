@@ -17,9 +17,9 @@ sentimentList=[]
 j=0
 
 
-while fileCounter < 148:
+while fileCounter < 2:
 
-    with open(str(fileCounter), "r", encoding='utf-8', errors='ignore') as file:
+    with open("redditComments/"+str(fileCounter), "r", encoding='utf-8', errors='ignore') as file:
         fileCounter += 1
         firstLine = file.readlines(1)
 
@@ -29,10 +29,13 @@ while fileCounter < 148:
         for line in file:
             res = sia.polarity_scores(line)
             if res['compound'] > 0.2:
+                print(line+' -- POSITIVE')
                 positiveCounter+=1
             elif res['compound'] < -0.2:
+                print(line + ' -- NEGATIVE')
                 negativeCounter+=1
             else:
+                print(line + ' -- NEUTRAL')
                 neutralCounter+=1
 
     totalSentiment = positiveCounter+negativeCounter+neutralCounter;
@@ -40,6 +43,7 @@ while fileCounter < 148:
 
 
 print('Length is'+str(len(sentimentList)))
+print("positive-"+str(positiveCounter)+" negative-"+str(negativeCounter)+" neutral-"+str(neutralCounter))
 
 # with open('SIA_test.csv', 'w') as csvfile:
 #     fieldnames = ['SIA']

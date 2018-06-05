@@ -1,0 +1,189 @@
+Daily Discussion, January 09, 2018
+My future Lambo is turning into Ford Pinto...I need to stop checking my app. I’m out of Ativan. 
+Finally. I always miss daily discussion on mondays.
+I've been day trading with 600€ today, made a sweet 5€ profit in 4 hours.
+Do you think it would be a good idea to raise a Bounty on bounty0x for development goals? Like the first lightening integration into a wallet?
+I just had a post automoderate removed because it referenced bcash, using the term b itcoin c ash. Are you kidding me? How can this be reversed? The issue is an important issue for real bitcoin holders who must pay taxes on bcash. The aggressive mods here created this shitfork by the way. Extremely frustrating. 
+That big wall at 14K needs to hold. 
+Is anything being done currently by the devs to address the scaling problem? (Besides LN)
+wtf is going on
+Does anyone else feel like the price movement has been moving abnormally since futures opened??? Serious question
+
+The intervals between 1k fluctuations are long and the movements are sudden. I really feel like the price is been “caged in”. For what reason I don’t know.
+["The first MAST pull requests just hit the Bitcoin Core repo on Github. Have a read of this MAST primer."](https://www.reddit.com/r/Bitcoin/comments/7p61xq/the_first_mast_pull_requests_just_hit_the_bitcoin/)
+So as I understand how the lightning network works, in order for a program to accept or send payments for you it needs to have the private keys to particular lightning transactions on-hand so that they can be exchanged when you make a new lightning transaction and to sign in the case of the other party breaking the rules, which seems like a little bit of a security risk (Best practice, of course, is to not keep plain-text private keys to active addresses on any online computer). Authorizing the necessary signs and broadcasts by hand on an air-gapped, clean install computer would be a bit of a pain as compared with letting a program do it on a connected computer, especially for a merchant taking a lot of orders through their channel(s), or an exchange...
+
+Of course it will *probably* never be *fully* safe doing it entirely automatically (anything can be hacked, and of course recently we're seen the Spectre and Meltdown issues...), so are there any plans to implement a hardware wallet designed with the lightning network in mind (or a lightning wallet that allows offline signing by generating the private key on an existing hardware wallet design) where you could, for example, just press the button to authorize for the key exchange part of the protocol or whatever at every transaction?
+why is it taking so long to implement segwit into the core wallet?
+Guys stay positive all will be good :)
+Chapeau to the pyramid step sell wall @ $15100 on GDAX.
+
+It's a thing of beauty.
+
+I want to walk up it like Q-bert
+If I were brave I would change all my ETH into BTC now.
+I'm a long term hodler and even I'm beginning to feel like "fuck bitcoin". Massive sells because of stupid fuck reasons.
+Guys on wall st will be getting their bonuses next week. Hoping we see another boom then.
+That's it folks it's getting support now. Jan sale over. 
+Jimmy Song had a great point on his channel. Lightning and Segwit are out but adoption is slow because companies are slow. We need agile new competition in wallets, and exchanges. A new exchange comes out with segwit and lightning it has a competitive advantage, we need to see more new competition.
+Too many dead cats already. 
+is this really the most active daily discussion thread for btc on reddit?
+Just sold the remaining 1/4 of my bitcoin holdings at just under 14k USD. With an original buy price of 6k USD I am more than happy with my gains. IMO this is just the beginning of price slips for bitcoin and it has some ways to go. For all you holders I hope I'm wrong, best of luck. 
+Why is the lightning network not being adopted en masse right NOW?
+
+With the amount of money in Bitcoin I would expect to hear numerous dev teams working together to quickly create UI / infrastructure and to get this thing out there. It's vital if Bitcoin stands any chance of scaling, and without it BTC is at risk of being usurped by ETH.
+
+Where is the sense of urgency?
+dont understand how segwit adoption is so low. we keep shilling about the LN and how it will save everything, but you cant have one without the other. the fucks going on with this seriously 
+Since you can gift your children assets while you are still alive and count it against your total lifetime estate tax exemption, could I gift my child my bitcoin and then have it cashed out at that time and they owe no capital gains since it is valued at the time of gifting rather than time acquired?
+Those who got in at 19k, rip
+Hi guys - I sold some BTC this past year and I’m trying to figure out what I owe the IRS. Does anyone here know if it’s required that we use FIFO when calculating capital gains? Obviously I’d rather use LIFO or specific identification if that’s possible, but I don’t want to run afoul of IRS rules surrounding cryptos. Thanks all for the help! 
+Hi guys, honest answers please. What do you all see BTC price being by next Christmas. I don't want to ask this in crypto subs because there's so many childish haters out there.
+Just got $10 worth of Bitcoin from Coinbase because someone signed up with my referral link. Thing is, I’ve never given out my referral link. How did that happen?
+https://www.tradingview.com/chart/BTCUSD/hO4NdLK3-The-bleeding-stops-tonight-60-day-BTC-cycle-over-18-4k-Next-Wk/
+Sorry if this has been asked before but I don't see this discussed. Beyond Segwit and LN, what else is on the horizon  or can be done to speed up the amount of transactions per second(compared to visa), exchanges being able to keep up with and exponential growth rate(more at the scale of coinbase coming?), and ease of entry for later adoptors that aren't crypto-savy? I'm completely fine with organic slower growth for bitcoin but I don't want to see it left to dust. I know nothing about what developments could be in the works that could speed  up and lower fees beyond LN and blocksize increase. Is there no other option?
+Here come the bulls 🚀
+[removed]
+noob here. Why is there a $17.17 fee to send $200 worth of bitcoin from coinbase to binance exchange? 
+
+Is there a way to circumvent this or pay lower amt? 
+How likely is it that all the people investing now are going to lose there money and would it be stupid of me to consider putting half my savings into Bitcoin? My investment would be 7 grand am I being a dumbass? I just dont want to miss the boat and if I don't invest this money it's just sitting in a saving account doing nothing. My dream is to build up enough money to become a property investor.
+You guys need to chill out. Don’t sell. Study the price charts. It’ll bounce back as usual. That’s just my advice based on what I have noticed. 
+Is it possible to secure an exchange by doing forgot-password every 24 hours or by doing an ACH every week? 
+
+Some exchanges prevent withdrawals for 24-48 hours after forgot password function has been used. Some prevent withdrawals while ACH transfers are being confirmed, which can take a week.
+
+Can these exchanges be secured by repeating these actions over and over (until you need to make a withdrawal)?
+
+If there an exchange with a setting like: [ ] check box to lock withdrawals. Unchecking this box will require a 7 day waiting period where your email/phone will be alerted to the change.
+Bitcoin should be another great year for us!  HODL peeps!
+The btc 24hr volume on gdax is so low 
+I cant figure out how to set my own price for fee in bitcoin core. It confuses me since it uses bitcoin numbers instead of the satoshi per byte itself like Ive seen in other wallets. I feel really stupid.
+Is it safe to store my btc on coinbase? and is it ok to send from one exchange directly to coinbase? (assuming that's possible) 
+
+Also, is coinbase legit as far as quoting the right prices? It's seems to be lower by a couple hundred dollars vs livecoinwatch.
+I've never seen walls set up like that before. What is it for and why would somebody do that?
+For everyone has their money missing/suspended/locked in, and cannot get a response from coinbase/gdax for months:
+
+Can we file a lawsuit against them? anyone know the legal process of this?
+[removed]
+What are the best iphone apps to buy & sell?
+Theres a ton
+so whats the deal with BTC? aside from mooning by 2020 are you guys expecting it to keep its current downtrend?
+Hey guys! Happy New Year all.
+
+I have a pretty simple question (I'm guessing the answer won't be so sinple)
+
+I am Australian, and I have recently signed up to an Australian BTC exchange.
+
+I was going to purchase some bitcoin, like every time I make a purchase, I check the global markets for a medium price.
+
+The global market showed the average price was approx 19k AUD, although on Cointree (the exchange I have signed up to) the BTC buy/sell price is 22/23k AUD.
+
+Can anyone explain how the price can be 2-4k higher than the global medium?
+Hello 
+This is a pretty dumb question for all you crypto-experts but I am trying to withdraw an alt coin (GAS) that I bought a few days ago on Poloniex into my Coinbase BTC wallet. Everytime I generate a coinbase address and try to withdraw it comes up with "invalid address" on poloniex. What am I doing wrong? I am copy and pasting exact addresses from coinbase and confirming with the link sent by email from poloniex. 
+
+Thank you!!! 
+Some asshole put up the most annoying sell walls from 15,100 on Gdax... 
+Bitcoin is snakebitten since it started dominating headlines ~beginning of December. Also around the time of CBE/CMOE futures starting. 
+Why am I not panicking? Lol I’m just not surprised anymore I guess? Am I the only one that feels this way? Someone hodl me and fill me with sweet nothings
+[deleted]
+So i'm a BCASH shill and I would like to know what more the mods are doing to try and accommodate my extra chromosomes? 
+People keep sharing the parabolic chart of bitcoin. It seems almost too good to be true.
+BTC gone down $3k in 3 days. But i can`t see why. Christmas/New year is over, No talk of forks/futures failed contracts.. what is it? Is it just dying?
+Hello, new thred. 
+How do you feel about news from India and China?
+I think we finally went full retard today. this isn't specific to only Bitcoin and it is more ethereum related. gpus are sold out everywhere. The price of used 1070's on eBay right now is 6 to $700. It's extremely difficult to find any quality GPU without paying through the roof. Literally 6 weeks ago I remember getting a 1080 on Black Friday for 489. I'm not even really sure what to make of this as I've only seen a computer item do this one other time in my life and I was a little kid. There was a time in the 90s when Ram went to like $1,000 per stick. 
+So we going to the moon or not?
+Someone about to buy 50btc for 12k on gdax lucky fecker😊 
+
+Update: now 47btc  
+
+Update: it's pushing away he might not fill it nooooo so close 
+
+Update: 49 btc 
+
+Update: 47 btc 
+All this is is whales picking up cheap coins and idiots selling 
+When is the hunting season for bears? We need to kill all of those fuckers
+guess btc is no longer hot anymore. I sold my alts for btc when btc was marching towards 16.5k a few days ago. thought I made the right decision, but now seeing btc drops again and the alts I sold keeps going up, I start to doubt
+[deleted]
+Quick question about transaction fees.  Let's say I have .003 BTC in two different Electrum wallets and I want to send them to Coinbase to live happy and free with my other BTC.  I don't want to lose it all in TX fees, though.  
+
+It's my understanding that fees are related to how busy the network is, and that some features to reduce fees (like segwit) are not uniformly deployed.
+
+If I want to transfer the funds as cheaply as possible and time is not an issue, what's my best bet?  Wait until lightning is ready?  Just send the transaction with a very low fee and hope it processes?
+
+If a transaction is never processed and is dumped out of the mempool, are the fees lost or returned?
+Posted this http://archive.is/sTUZU in ethtrader. 
+
+Got 12 downvotes in less than a minute.  They are heavily censored.
+[deleted]
+Noob here. I bought some bitcoin on coinbase at 10pm gmt the price listed was something like £10.7k. But when I check the transaction details it says the price was 11kish. No where on the price chart was it 11kish in the past few hours. Am I missing something? 
+Hello,
+
+December 29, 2017 I sent my friend .25868 BTC using coinbase. The funds were immediately taken from my wallet as it began the process where my transaction was "pending." After about an hour or so, the transaction than said "COMPLETE". However, my friend never received ANY funds in his coinbase BTC wallet. I triple checked i sent the funds to the accurate address and I did. I simply copied and pasted his wallet ID, that he texted me. I e-mailed coinbase, and nobody ever responded. Seems terrible that thousands of dollars can go missing with just no explanation. Please help! What should i do!?
+Can anyone provide some real information on cloud mining with HashFlare? I've watch some videos and whatnot and I think overall it is the best route for me to go about mining right now. Looking to purchase 20 TH/s at a 1 year contract. Profitability looks good and break even looks fine based on current price of BTC. I'm interested in hearing arguments for/against cloud mining. Thank you!
+Please hodl me
+Hope this shit drops a few k’s and I’ll go all in, on my mother 
+Who cares. 
+[deleted]
+Im thinking in investing 1250dls in bitcoin this week, any helpful thoughts?
+Can we get a stickied thread that details the bitcoin projects in development, their current status, the lead developers and estimated deployment?
+
+Maybe we should start focusing on how the developers are addressing specific issues and bringing that information forward.  
+can someone please clarify what cryptocurrency cycle is all about? 
+how do you know when a cycle ends? or is it just all based on prediction? 
+[Project] Hey! I have written a post about my (and my friend's) project about P2P Blockchain Based Fully Anonymous (not pseudo-anonymous) Messenger. I did not want to make a post in this subreddit since it might be off topic.
+
+Please check the https://redd.it/7paopz and/or https://redd.it/7peltl
+
+I'm ready for the emotion boys, but let's talk about block size limits for real. 
+
+I firmly believe now is not the time for 8MB blocks a la BCH, but as bitcoin adoption grows in the long term, at some point we likely will need a block size limit increase of some kind. I know segwit effectively increases the block size, and am a big fan of segwit, I just want to try to understand how we'll figure out, as a community, when and what size of blocksize increase we'll need. 
+
+So, some metrics that immediately came to mind were things like average amount of RAM of a computer for a given price point, maybe average cost of consumer bandwidth. How should we judge when it's time for a block size increase of a given amount. If it's possible to introduce some kind of sharding to the blockchain to reduce the storage required per node, or maybe if there are optimisations that can be made to processing time for blocks by nodes, would this make it easier to increase the block size limit, as the cost and impact on node operators might be lessened?
+
+Also, given the sort of amplification effect of segwit, should we be considering block size increases on the order of hundreds of KiB, say for example a blocksize limit increase to 1.2-1.4MiB or something like that?
+Enormous sell wall popped up on GDAX. $15100 and upwards. What can we expect? 
+Do you guys think bitcoin will go up in value soon or stay at this 14-15k range?
+Whats everyones thoughts and opinions on when the next bull run will come? 
+
+Anyone else making form easy coin form the ETH pump?
+I finally got my Ledger Nano S and it only cost me around $100 ordering it straight from the froggies! 
+Does anyone know the legality of opening a GDAX account in the USA and allowing someone else to use the account on your behalf?
+Hey, I want to start using Bitcoin but I'm not sure what the best way to go is. Coinbase looks really good but it has some bad reviews, thanks in advance.
+
+When the hell is the bottom? I thought we hit the right shoulder already?
+These are dark times my friends.. dark times..
+Price price price.... Is that all we care about? I though Bitcoin was a technology, an open source one. Do you guys realize how many problems does Bitcoin have, and the fact that it depends exclusively on us, the community, to fix them?
+
+What are we doing to fix them? What are we doing to stop the ever increasing fees? Apparently price discussion will solve this, right?
+
+No...
+
+Who gives a fuck about the current price? Bitcoin will always be volatile, at least for the years to come, are you x$ down on your investment? Don't give fucks and you'll see how everything works out, because it turns out you're not investing on a magic coin that changes it's price whenever it feels like... No no... You invested your hard earned money into a technology that is, as of today, is changing the world. You are just looking at the small picture, because you put your money into something without actually knowing what it was, but hey, they say ignorance is bliss, and it sure might be.
+
+People of /r/Bitcoin you have two options. You can panic sell and save us the trouble of having to constantly debate prices with you, that way in a few years when crypto rules the fucking world there will be like discovery channel specials to teach you how badly you messed up when you sold at 13k because "Bitcoin crashed" knowing that a few months ago one Bitcoin was 5k. OR... You could start making some research, and start FUCKING HELPING, either coding, spreading awareness, talking to your local community, opening spaces for Bitcoin and other cryptos, because you guys HAVE to understand... Bitcoin is fucking freedom to chose what to do with your own money, this is what we are fighting for, not the right to be rich in 2 months...
+
+Geez...
+
+
+The current fee pressure is from someone attacking Bitcoin. Its like a medieval siege. He is trying to starve everyone inside the ecosystem. But who is going to win? Will this attacker run out of money to prop up fees or will people eventually capitulate and dump their BTC? Who will win? The siege has already lasted 30 days costing about $5M per day. I hope its worth it.
+Hope yall are wearing this t-shirt, you're gunna need it tonight.
+
+https://www.theviralswag.com/store/p24/bitcoindark
+[removed]
+If bitcoin is suppose to be encrypted transactions, why do I need email address, last 4 of social, street address, and front and back of drivers license?! Any transaction I make has my name all over it, no? I thought ppl used BTC to buy shady stuff from the internet. I’m very confused and I’m hesitant to use BTC to buy stuff now. Am I looking at this wrong?
+Does anyone have a summary/breakdown of the main points of the bitcoin whitepaper/system?
+i went all in about an hour ago at 14600 and its dropped 600 bucks since then. im think of selling at a lose right now cause all im doing is staring at the price. its too stressful and not even worth it
+[deleted]
+Does anyone know if the blockexplorer wallet count (now ~22million) includes the accounts with exchanges  (Gdax, Gemini, Coinbase etc)? It seems low
+When will bitcoin cross $20 k
+[deleted]
+Now the market is pushing ethereum up because it's easier to do compared to bitcoin. When it will become difficult to do so, Bitcoin will be pumped again.
+[deleted]
+initiate decoupling of eth and btc.
+dzfhzdfghdzfgzsdg
+Anyone interested to buy binance or poloniex Ac ???

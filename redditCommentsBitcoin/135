@@ -1,0 +1,71 @@
+Moon Math Update: Core and the acceptance of the first practical scaling solution
+"They were successfully forced to participate by contributing directly to the Bitcoin ecosystem instead of relentlessly and freely profiting from it."
+
+This sentence articulated what I've been thinking about for a while. Because Bitcoin is fundamentally transparent, decentralized and censorship resistant it exposes/disintermediates any party in the ecosystem that tries to manipulate or strong arm their will onto others. But it also elevates and rewards any party that plays fair and honestly.
+
+Coinbase got exposed for playing dishonestly. They must choose to capitulate and come clean and play by the consensus rules or be  disintermediated by another party like Bisq who will step in and play fair.
+
+The Core devs once again have demonstrated that they are honest and play fair by the consensus rules otherwise they would have been disintermediated after the dozens of crisises (Bitcoin Unlimited, Segwit, Bitcoin Cash etc). Time and time again the ecosystem (wallets, miners, exchanges, merchants and users) have shown their support for the devs and their fair play. 
+
+Fantastic. Sometimes reading the FUD makes you think that no one gets it, but clearly there are people out there who do. It really is a great community and some pretty amazing things are happening. Thank you.
+This is the type of content I need in my life. Funny how aligned we are serious discussion. There is no arguing any of this, to my knowledge, though I hope to see if some of this information is proved wrong. There will be a moment, when Lightning is tried and true and companies are actively implementing it, when the tide changes and money comes back to BTC.
+Well written. Thanks.
+Great post. Folks should definitely take a look at the Github conversations the devs have, check out how long they've been working at it, how many posts, commits etc 
+Impressive dedication, professionalism & care.  
+
+Bitcoin devs really deserve far more appreciation than they get. 
+
+
+
+
+
+Still in shock at Coinbase spamming the network. 
+Sppt on
+Thank you for this, should be a sticky
+Thank you for this post. I'd like to share this excellent Andreas Antonopoulos talk to complement what you wrote about scaling : [Scaling is a moving target](https://www.youtube.com/watch?v=pT9kJq_Ogrk&feature=youtu.be&t=119)
+Damn. Can't argue with moon math 
+Great post. Thanks for putting this together. Stay strong and stay humble friends. Keep this community close. Bitcoin is being attacked always and from all over, it’s only making us stronger, wiser and more grounded as a community. 
+[deleted]
+To those who don't know what nannal's A+ means: https://www.reddit.com/r/BitcoinMarkets/comments/6vw6lt/daily_discussion_friday_august_25_2017/dm48d43/
+Great post, thanks!
+Awesome to see posts like these. Thank you OP.
+innovation for decentralized peer to peer networks is pushed to the edges by design. Top down or client-server designs are a piece of cake to scale and update by design. Pick one.
+Thanks for a well-written post, and some exciting moon math!
+
+Well written. I still think alts will do just fine though.
+always enjoy the moon math update posts.  how often do you update?  can we always get a monthly update? :)
+Well written!
+
+Like you say - you're entitled to your own opinion. Would also all - but not your own facts.
+
+Don't like you write Core all the time - this is for me a capitulation to the other side. 
+Yo! Lovely post, makes a lot of sense to me. I want to be a nitpick about something. You said:
+
+>I read the commit history and the commit logs, and you can too. I read the source code, and you can too.
+
+So you're calling us to action to do our own research into the quality of the Core team, which is fine. Then you say:
+
+>No other blockchain project I'm aware of is operating at this high of a level. If you disagree with that, I need to see you reference these sources.
+
+Now you come off as a bit of a hypocrite. When it comes to core, we should do our own research but when it comes to another team, it's that community's responsibility to bring the evidence to you. 
+
+You see the issue? You're expecting people to do their own research, but you also want them to refer you to their arguments without doing this yourself. 
+
+To fix it, all you have to do is provide like 1 or 2 references on why the Core team is so upstanding and now you've fixed the issue. You've become the rowmodel of what you're promoting and no longer come off as a hypocrite. 
+
+NB: I'm not intending to offend, it's just a matter of text analysis and the message it conveys when reading it. (AKA No shade bra).
+> The central premise of the blockchain as a solution for the Byzantine General's Problem is that the collective we can continue forcing future generations to store and re-record the transactions of the past. There are mathematically proven realities that force design choices onto software developers who are aware of this. One rule is that you cannot have or imply a rate of storage that grows at a logarithmic rate.
+
+> You can argue that the rate of growth for the blockchain is irrelevant because storage density increases with Moore's Law, Logarithmically or exponentially. That argument does negate the above first rule. However, Bitcoin Core devs are following the implications that they see when they make design choices, and not just what is shown when they write out the implications of their choices using Big O notation.
+
+That's borderline nonsensical blabbering.  You're using engineering terms but I suspect you're not an engineer?
+You lost me at "This is not a political debate.".  After months of 2x is political hardfork, now this is not political debate?
+You seem to be confused. 
+
+Segwit is a blocksize increase. Yes, yes it is. 
+
+Why are you arguing that coinbase should bloat the blocksize of the network by implementing segwit? 
+
+Segwit should ONLY be used for the lightning network. That's it. 
+So why doesnt core wallet have segwit GUI again? Can the super talented and motivated brilliant team not sort that out?
+I decided core didn’t know what they were doing the moment I looked at the code and saw all the hard coded strings throughout. 
