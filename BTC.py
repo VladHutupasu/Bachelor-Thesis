@@ -14,9 +14,7 @@ for submission in subreddit.search('Daily Discussion', time_filter='all', sort='
         if 'Daily Discussion' in submission.title:
             fileNumber += 1
 
-            if fileNumber>32:
-                break
-            else:
+            if fileNumber>40:
                 print(submission.title)
 
 
@@ -24,13 +22,13 @@ for submission in subreddit.search('Daily Discussion', time_filter='all', sort='
                 allComments=submission.comments.list()
                 print(str(len(allComments)))
 
-                with open(str(fileNumber), "w", encoding='utf-8',
+                with open(str(fileNumber-8), "w", encoding='utf-8',
                       errors='ignore') as f_all:
                     f_all.write(submission.title + " -- TITLE\n")
 
                     for comment in allComments:
                         f_all.write(comment.body + "\n")
-    if fileNumber==32:
+    if fileNumber==70:
         print("BYE BYE")
         break
 

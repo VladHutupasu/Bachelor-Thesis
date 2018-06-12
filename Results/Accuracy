@@ -1,0 +1,53 @@
+﻿1. SVM bitcoin
+
+02 MAY ---- 02 JUNE --- kernel=linear
+
+a)Day Diff + Vola + SIA -> 71.43%
+Train data: 24
+Test data: 7
+# train_data = pd.read_csv('combinedTRAIN.csv')
+# test_data = pd.read_csv('combinedTEST.csv')
+
+b)Day diff + SIA2 + SIA -> 66.66%
+Train data: 25
+Test data: 6
+# train_data = pd.read_csv('trainMe.csv') 
+# test_data = pd.read_csv('testMe.csv')
+
+c)Day diff + Volatility + SIA -> 52.94%
+Train data: 44
+Test data: 17
+# train_data = pd.read_csv('checkTRAIN.csv') 
+# test_data = pd.read_csv('checkTEST.csv')
+
+d)Volume + SIA2 + SIA -> 47.05%
+Train data: 44
+Test data: 17
+# train_data = pd.read_csv('checkTRAIN.csv') 
+# test_data = pd.read_csv('checkTEST.csv')
+
+e)Volume + SIA + Day diff -> 41.18%
+Train data: 44
+Test data: 17
+# train_data = pd.read_csv('checkTRAIN.csv') 
+# test_data = pd.read_csv('checkTEST.csv')
+
+e)Volume + SIA + Volatility -> 52.94%
+Train data: 44
+Test data: 17
+# train_data = pd.read_csv('checkTRAIN.csv') 
+# test_data = pd.read_csv('checkTEST.csv')
+
+f)Volume + SIA + Volatility -> 40.00%
+Train data: 51
+Test data: 10
+# train_data = pd.read_csv('checkTRAIN.csv') 
+# test_data = pd.read_csv('checkTEST.csv')
+
+g)Day Diff + SIA + Volatility -> 60.00%
+Train data: 51
+Test data: 10
+# train_data = pd.read_csv('checkTRAIN.csv') 
+# test_data = pd.read_csv('checkTEST.csv')
+
+

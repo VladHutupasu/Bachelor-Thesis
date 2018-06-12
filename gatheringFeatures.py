@@ -18,7 +18,7 @@ market_info = bitcoin_market_info
 
 #--DATA only for 2017--
 # market_info = market_info[market_info['Date'] >= '2017-01-01']
-market_info = market_info[market_info['Date'] >= '2018-05-02']
+market_info = market_info[market_info['Date'] >= '2018-04-02']
 market_info = market_info[market_info['Date'] <= '2018-06-02']
 
 #--Create Day Diff column with values--
@@ -57,7 +57,8 @@ while i <(len(market_info)-1):   # -1 because we cannot compare the last day wit
     i=i+1
 
 # drop rest keep only Close,Volume,COH & Vola
-# model_data = market_info[['Date'] + [metric for metric in ['Volume', 'Close Off High', 'Day Diff', 'Volatility', 'Movement']]]
+# model_data = market_info[['Date'] + [metric for metric in ['Volume', 'Close Off High', 'Day Diff', 'Volatility',
+#  'Movement']]]
 model_data = market_info[['Date', 'Close**', 'Volume', 'Close Off High', 'Day Diff', 'Volatility', 'Movement']]
 
 
@@ -65,13 +66,14 @@ model_data = market_info[['Date', 'Close**', 'Volume', 'Close Off High', 'Day Di
 model_data = model_data.drop(model_data.index[len(model_data)-1])
 print(model_data)
 
-#----------------------------------------from 02 May ->June 2--------------------------------------------------------------------------
+# ----------------------------------------from 02 May ->June 2--------------------------------------------------------
 sia = SIA()
 
-#------------------------SIA--------------------------------------
-fileCounter = 32
+# ------------------------SIA--------------------------------------
+fileCounter = 62
 sentimentList=[]
 list_dates=market_info['Date']
+list_prices=market_info['Close**']
 
 posValues=[]
 negValues=[]
@@ -79,7 +81,7 @@ neutralValues=[]
 
 
 while fileCounter >= 1:
-    with open('redditCommentsBitcoinMarketsMay/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
+    with open('redditCommentsBitcoinMarkets June- April/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
 
         neutralCounter = 0
         positiveCounter = 0
@@ -112,6 +114,7 @@ while fileCounter >= 1:
 plt.plot(list_dates, posValues, color='g', label='positive')
 plt.plot(list_dates, negValues, color='red', label='negative')
 plt.plot(list_dates, neutralValues, color='orange', label='neutral')
+plt.plot(list_dates, list_prices, color='blue', label='price')
 plt.gcf().autofmt_xdate()
 plt.legend()
 plt.xlabel('Time line')
@@ -122,13 +125,17 @@ plt.show()
 
 
 #------------------------SIA2--------------------------------------
-fileCounter = 32
+fileCounter = 62
 sentimentList2=[]
+
+posValues=[]
+negValues=[]
+neutralValues=[]
 
 
 while fileCounter >= 1:
 
-    with open('redditCommentBitcoinMay/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
+    with open('redditCommentBitcoin June-April/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
 
         neutralCounter = 0
         positiveCounter = 0
@@ -147,6 +154,10 @@ while fileCounter >= 1:
             else:
                 neutralCounter+=1
 
+        posValues.append(positiveCounter)
+        negValues.append(negativeCounter)
+        neutralValues.append(neutralCounter)
+
         fileCounter-=1
 
     # totalSentiment = positiveCounter+negativeCounter+neutralCounter
@@ -156,10 +167,21 @@ while fileCounter >= 1:
 
 print('Length is'+str(len(sentimentList2)))
 
-#-------------------------------------------------------------------------------------------------------------------------
+#---------------plot for SIA2----------------------------------------------
+plt.plot(list_dates, posValues, color='g', label='positive')
+plt.plot(list_dates, negValues, color='red', label='negative')
+plt.plot(list_dates, neutralValues, color='orange', label='neutral')
+plt.plot(list_dates, list_prices, color='blue', label='price')
+plt.gcf().autofmt_xdate()
+plt.legend()
+plt.xlabel('Time line')
+plt.ylabel('No. of comments')
+plt.title('Positive, negative & neutral sentiment over time')
+plt.show()
+#---------------------------------------------------------------------------
 
 
-with open('scrath.csv', 'w') as csvfile:
+with open('check.csv', 'w') as csvfile:
     fieldnames = ['Date', 'Close**', 'Volume', 'Close Off High', 'Day Diff', 'Volatility', 'SIA', 'SIA2','Movement']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()

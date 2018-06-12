@@ -13,7 +13,7 @@ for submission in subreddit.search('Daily Discussion', time_filter='all', sort='
     if not submission.stickied:
         if '[Daily Discussion]' in submission.title:
             fileNumber += 1
-            if fileNumber>15:
+            if fileNumber>40:
                 print(submission.title)
 
 
@@ -27,7 +27,7 @@ for submission in subreddit.search('Daily Discussion', time_filter='all', sort='
 
                     for comment in allComments:
                         f_all.write(comment.body + "\n")
-    if fileNumber==32:
+    if fileNumber==70:
         print("BYE BYE")
         break
 

@@ -1,0 +1,30 @@
+PSA: Probable phishing site/malware delivery called something like "Crypto Calendars"
+Glad to see people are being smart out there. Years ago all too many would have just run and downloaded things.
+
+I'm a bit uneasy about the web and financial stuff, the things you can do, and the things that can be hidden are pretty powerful these days... 
+
+I am going to setup an entirely separate laptop to use for finance only. No web browsing, just accessing services via link or direct url. With even advertisements getting served up with hidden viruses it's just too scary. 
+
+
+
+To expand on this:
+
+NEVER follow a link out of or to any bitcoin related website (reddit forums, anything) without running things in a virtualbox/sandbox environment that ideally has absolutely no contact or overlap with cookies, other web traffic or your wallet environment... including a remotely similar IP address if possible.
+
+This includes blogs, "reputable sites," links out to homebrew apps.
+
+The exploits going around have been embedded in these sites AS WELL AS advertisements and other embeds that the site owner might not even be aware of.
+
+It sounds like a drag but as soon as you separate this sort of browsing as much as possible it is actually about as convenient as opening a new browser window.
+
+The goal is not only to avoid direct malware/attacks/infection but also to not allow these sites to form any sort of profile that would make targeting you easier: the biggest being IP address, but any other vectors like usernames / passwords or your browser itself as browsers leave rather unique fingerprints on any site that scrapes lots of data from the session info (fonts installed, certain plugins, cookies, etc). 
+
+Regarding some website that someone's sharing -- it may not even be malicious via the author. Someone getting traction with a website on a public forum like reddit becomes a target itself and will easily be focused on for exploitation + invasion from bad actors. The odds are in favor of someone creating/running an app or site is focused on front-end engineering but completely oblivious to backend engineering and the link between the two leading to poor front-end security practices. Of course the worst case scenario is that the site was flat out developed as some sort of malware itself.
+
+I would be equally concerned with this sort of profiling (which can lead to real-life information being gained) as a malware to digitally exploit your machine.
+
+And those crypto-egos out there that insist on publicly revealing personal information in a show of "internet credibility" ... well, good luck to you.
+are you referring to this one?
+https://coinloop. io/cryptocurrency-calendar
+
+https://www.reddit.com/r/Bitcoin/comments/7xopvi/our_cryptocurrency_events_calendar_is_now_live/

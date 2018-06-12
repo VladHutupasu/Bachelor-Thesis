@@ -13,10 +13,17 @@ def predict_movement(day_diff, volatility, sia):
         return 'Down'
     else:
         return 'Up'
-    #google trends, bitcoinmarkets
 
-train_data = pd.read_csv('trainMe.csv')
-test_data = pd.read_csv('testMe.csv')
+# train_data = pd.read_csv('trainMe.csv') #--- USE SIA2 instead of Volatility
+# test_data = pd.read_csv('testMe.csv')
+# train_data = pd.read_csv('combinedTRAIN.csv')
+# test_data = pd.read_csv('combinedTEST.csv')
+
+train_data = pd.read_csv('checkTRAIN.csv')
+test_data = pd.read_csv('checkTEST.csv')
+
+train_data['Volume'] = train_data['Volume']/1000000;
+test_data['Volume'] = test_data['Volume']/1000000;
 
 print('Length train data: '+str(len(train_data)))
 print('Length test data: '+str(len(test_data)))
@@ -28,7 +35,7 @@ plt.show()
 
 
 # Specify inputs for the model
-imp_features = train_data[['Day Diff', 'SIA2', 'SIA']].as_matrix()
+imp_features = train_data[['Day Diff', 'SIA', 'Volatility']].as_matrix()
 movement_label = np.where(train_data['Movement']=='Up', 1, 0)
 
 
@@ -51,7 +58,7 @@ accuracy=0
 
 while i < len(test_data):
 
-    result = predict_movement(test_data['Day Diff'][i], test_data['SIA2'][i], test_data['SIA'][i])
+    result = predict_movement(test_data['Day Diff'][i], test_data['SIA'][i], test_data['Volatility'][i])
     if(result == test_data['Movement'][i]):
         print('Accuracy result for: ' + test_data['Date'][i] + result + ' -> TRUE')
         accuracy=accuracy+1
