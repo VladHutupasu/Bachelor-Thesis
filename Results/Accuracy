@@ -14,6 +14,8 @@ Test data: 6
 # train_data = pd.read_csv('trainMe.csv') 
 # test_data = pd.read_csv('testMe.csv')
 
+02 APRIL ---- 02 JUNE --- kernel=linear
+
 c)Day diff + Volatility + SIA -> 52.94%
 Train data: 44
 Test data: 17
