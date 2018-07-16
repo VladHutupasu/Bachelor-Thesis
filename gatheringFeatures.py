@@ -27,7 +27,7 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
     datetime_object = datetime.strptime(start_date, '%Y-%m-%d')
     datetime_object1 = datetime.strptime(end_date, '%Y-%m-%d')
     tmp = datetime_object1 - datetime_object
-    days_in_between = tmp.days +1
+    days_in_between = tmp.days + 1
 
     print('Days in beween the given dates - ' + str(days_in_between))
 
@@ -46,10 +46,10 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
     market_info = market_info.assign(**kwargs)
 
 
-    #add Movement column (initially random values)
+    # add Movement column (initially random values)
     market_info = market_info.assign(Movement=pd.Series(np.random.randn(len(market_info['Open*']))).values)
 
-    #reverse array for ascending order
+    # reverse array for ascending order
     market_info = market_info.sort_values(by='Date')
 
     # Resetting the indexes
@@ -68,16 +68,14 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
         i=i+1
 
     # drop rest keep only Close,Volume,COH & Vola
-    # model_data = market_info[['Date'] + [metric for metric in ['Volume', 'Close Off High', 'Day Diff', 'Volatility',
-    #  'Movement']]]
     model_data = market_info[['Date', 'Close**', 'Volume', 'Close Off High', 'Day Diff', 'Volatility', 'Movement']]
 
 
     # Dropping the last row that doesnt have movement
     model_data = model_data.drop(model_data.index[len(model_data)-1])
-    print(model_data)
+    print(model_data.to_string())
 
-    # ----------------------------------------from 02 May ->June 2--------------------------------------------------------
+    # ----------------------------------------from 3 April ->June 2--------------------------------------------------------
     sia = SIA()
 
     # ------------------------SIA--------------------------------------
@@ -90,17 +88,15 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
     negValues=[]
     neutralValues=[]
 
-
-    while fileCounter >= 1:
-        with open('redditCommentsBitcoinMarkets June- April/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
+    # do not read file number 1 which is 2 June, because it was dropped before
+    while fileCounter > 1:
+        with open('redditCommentsBitcoinMarkets 3 April - 2 June/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
 
             neutralCounter = 0
             positiveCounter = 0
             negativeCounter = 0
             firstLine = file.readlines(1)
 
-            # if 'Daily Discussion,' not in firstLine[0]:
-            #     continue
 
             for line in file:
                 res = sia.polarity_scores(line)
@@ -117,7 +113,6 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
 
             fileCounter-=1
 
-        # totalSentiment = positiveCounter+negativeCounter+neutralCounter
         totalSentiment = positiveCounter+negativeCounter+neutralCounter
         sentimentList.append(((positiveCounter-negativeCounter)/totalSentiment)*1000)
 
@@ -144,18 +139,16 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
     negValues=[]
     neutralValues=[]
 
+    # do not read file number 1 which is 2 June, because it was dropped before
+    while fileCounter > 1:
 
-    while fileCounter >= 1:
-
-        with open('redditCommentBitcoin June-April/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
+        with open('redditCommentBitcoin 3 April - 2 June/' + str(fileCounter), 'r', encoding='utf-8', errors='ignore') as file:
 
             neutralCounter = 0
             positiveCounter = 0
             negativeCounter = 0
             firstLine = file.readlines(1)
 
-            # if 'Daily Discussion,' not in firstLine[0]:
-            #     continue
 
             for line in file:
                 res = sia.polarity_scores(line)
@@ -172,12 +165,8 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
 
             fileCounter-=1
 
-        # totalSentiment = positiveCounter+negativeCounter+neutralCounter
         totalSentiment = positiveCounter+negativeCounter+neutralCounter
         sentimentList2.append(((positiveCounter-negativeCounter)/totalSentiment)*1000)
-    #n classifiers
-    #percentage movement
-    #bayes
 
     print('Length is'+str(len(sentimentList2)))
 
@@ -196,7 +185,7 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
         plt.show()
 
 
-    with open('deleteMe.csv', 'w') as csvfile:
+    with open('train.csv', 'w') as csvfile:
         fieldnames = ['Date', 'Close**', 'Volume', 'Close Off High', 'Day Diff', 'Volatility', 'SIA', 'SIA2','Movement']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
@@ -209,5 +198,4 @@ def gatherFeaturesAndMakeSIA(start_date, end_date, showPlots):
                              'Volatility': model_data['Volatility'][i], 'SIA': sentimentList[i], 'SIA2': sentimentList2[i],'Movement': model_data['Movement'][i]})
             i=i+1
 
-gatherFeaturesAndMakeSIA('2018-05-06', '2018-06-02', False)
-# gatherFeatures('2018-04-02', '2018-06-02', False)
+# gatherFeaturesAndMakeSIA('2018-04-03', '2018-06-02', False)

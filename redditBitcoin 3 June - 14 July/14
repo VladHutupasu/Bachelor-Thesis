@@ -1,0 +1,334 @@
+Daily Discussion, July 01, 2018 -- TITLE
+Happy Canada day
+So what's planned for today? Up, down, doing the Bartman?
+[deleted]
+Daily Hopium:
+
+
+
+—-
+
+“Absolutely [BTC can reach $50,000 by 2018]. I think something [bitcoin] that goes up to $20,000 in one year can have a correction down to $6,000. I think we can find a bottom in the $3,000 to $5,000 range, but we are one positive regulatory decision away, maybe an ETF approved by the SEC, to climbing through $20,000 and even to $50,000 by the end of 2018,” said Hayes
+
+
+[2014 vs 2018 Bitcoin Price Correction: This Year Will Likely be Significantly Shorter](https://www.ccn.com/2014-vs-2018-bitcoin-price-correction-this-year-will-likely-be-significantly-shorter/) 
+
+—-
+
+
+
+Bonus Hopium:
+
+
+
+Nocoiner/fudster: “But, but, bitcoin is dead I tell ya! BITCOIN IS DEAD!”
+
+
+Me:  “yeah sure buddy.  Repeating the same bs over and over again will not make it so.  Watch and learn.”
+
+
+Be sure to read the replies to these as well for some lols:
+
+
+—-
+
+r/Bitcoin
+
+To the "OMG!! BITCOIN IS DEAD!!" people: Jesus Christ, you guys really must be new here. Every 3 months we get the "Bitcoin is dead!!" moment. LOL enjoy the ride, and see you on the next bubble.
+
+u/asymmetric_bet - 4y
+
+https://www.reddit.com/r/Bitcoin/comments/1t5fo1/to_the_omg_bitcoin_is_dead_people_jesus_christ/
+
+—-
+
+r/Bitcoin
+
+So, bitcoin is dead?
+
+u/ddmnyc - 2y
+
+https://www.reddit.com/r/Bitcoin/comments/413acx/so_bitcoin_is_dead/
+
+—-
+
+r/Bitcoin
+
+Dead again. Time to change the bitcoin logo !
+
+u/laurentmt -2y
+
+https://www.reddit.com/r/Bitcoin/comments/41tzkk/dead_again_time_to_change_the_bitcoin_logo/
+
+—-
+How does LN make sure transactions go where they need to go when channels can open and close all of the time? 
+Can you use an example of a train on tracks? 
+
+How will the train get to its destination if the tracks can suddenly close and derail the train?
+
+Thanks.
+If you sell into stop hunters, crypto might not be for you. 
+And so starts the downward sideways trend. Slowly bleeding out.
+Incoming bart completion
+im scared of life and where my life is going, i guess i better hold onto my bitcoins....please don't let me down in the near-far future bitcoin.
+[Austrian Economist: Cryptos and Precious Metals Can Co-Exist]
+Ron Paul, the notorious libertarian and Austrian economist, released a paper "The Dollar Dilemma" that about how bad the monetary system is today, and how precious metals and cryptocurrencies can co-exist to help fight against the decaying global economy, reported by Bitcoin.com. In addition, Paul said, "The desire for storage and speed can make a difference in choosing a currency. It appears that decentralized ledger technology will also be useful outside the sphere of digital currencies. A combination of gold and crypto will prove to be a lot more achievable than getting people to adapt to a totally new concept of money."
+Looks like will bleed back to 6k
+I have  **0.00681279** BTC on cryptobridge, how would i go about exchanging this for real money
+Daily Discussion, July 01, 10 AB (*anno bitcoinus*)
+Buy bitcoin. 5K or 6K or 7K entrance points will make little difference after moon and hyperbitcoinization.
+Have any of you seen this bot? 
+https://www.reddit.com/r/bjj/comments/8varqm/actual_footage_of_white_belts_teaching_other/e1m2o9b/
+Isn’t bcash bullshit coin? 
+That 0.001 trading bot is spazzing again.  
+ok this analysis ACTUALLY makes sense.. LETS GO! [https://www.youtube.com/watch?v=gVTKa6bSNd4](https://www.youtube.com/watch?v=gVTKa6bSNd4)
+I think we are going back to 6700 - 6800 range before dropping again. No real TA just my butthole talking.
+lol, the day traders really don't understand what's going on and it's hilarious. 
+Robert Kiyosaki talks about crypto at [17:27﻿](https://www.youtube.com/watch?v=781p-M7gW8E&t=1047s) He hates printed money.
+Bitcoin has the same behaviour like my wife when she is bleeding. You never knew what Happens.
+# Warning:  
+
+[https://www.blockchain.com/en/btc/address/1KAt6STtisWMMVo5XGdos9P7DBNNsFfjx7](https://www.blockchain.com/en/btc/address/1KAt6STtisWMMVo5XGdos9P7DBNNsFfjx7)
+
+Almost 86,000 BTC (545M+) just moved from this supposed "Chinese whale".
+BTFD: https://i.imgur.com/Arhe7WX.png
+_____
+
+**^https://www.reddit.com/r/BitcoinMarkets/comments/8q5p68/2018_cryptocurrency_crash_elliott_wave_triangle/**
+I'm always amused by the ups and downs of btc and this subs reaction.
+
+There's a widespread blackmarket for drugs that depend on crypto. And if there is one thing you should always count on is people's ability to get themselves hooked on to one drug or another. Speaking from experience.
+[deleted]
+Will buy some more NBOX and bitcoin soon, wish me luck
+Nice buttrun yesterday.
+Easy money, this market is too predictable!
+We're almost through the Bart. We just need a dip  back to $5800 to finish the right side of his head.
+Hey, don't have a cow man. 
+stuck on the same price for a few days, then a major dip for a couple days. Then suddenly a spike of false hope. Rinse and repeat.
+Wen bitcoin güd
+Idk bro tulips were an emerging asset at one point 
+Holy crap. That first thread was from over four years ago but reads like today!!
+So what's your predictions 
+Of course, that is before the bubble burst and a zillion folks lost literally billions of dollars. Where has it gone since?
+Many alternative tracks.
+Right now every change is being broadcast across the network (Gossip protocol, BOLT 7), so nodes know where the tracks are at every moment. With that knowledge a route gets built and a train is fired, going one track segment at a time. If the tracks disappeared, the train would bounce back to origin and another route would be tried. There is no case where the train would vanish with the tracks - either the channel is closed after an HTLC passes it, or it would close before it reaches it and won't be attempted.
+
+There are two problems with this.
+
+One, a node have to be online all the time to monitor changes or have to spend a minute downloading the network state on each start. Plenty of channels sit there unchanged for a while, but over days enough changes would accumulate to make the stale network data almost useless.
+
+The second problem is that current implementations don't handle nodes vanishing mid-flight all that well, the case where the station disappears while the train is at it, rather than just the tracks. In that case your money can get stuck for days in the time locks. It's quite rare, but still a problem to be solved.
+If bitcoin is the only thing holding your life together I would seek help. 
+It’s easier if you’re rich.
+I think there is good reason to still believe in bitcoin, but you have to be realistic here. It could take years to moon again to the point it changes lives.   
+
+Follow the golden rule not to invest more than you can afford to lose and you have no reason to fear.   
+
+
+Edit:
+
+Also want to add, if you are facing debt and financial troubles you should listen to Dave Ramsey. He can really help you out. 
+
+Dave is full of shit when it comes to bitcoin though.  Everyone who has money to invest in a 401k or ira should be at least putting in a few percent in bitcoin. Or they will regret missing out in future. 
+Stop watching conspiracy videos
+How old are you?
+One dump, will be back to 5.8k
+It's a bad sign when the whales start cashing out. 
+
+
+Do you have an account on an exchange?  You will need to use an exchange that has BTC/fiat market.  I personally use Coinbase since it's the cheapest option for Americans.
+Pretty sure you can just withdraw the btc to coinbase then have it deposited in your account 
+Yeah what’s up with that?
+
+Could someone be trying to send a signal that something is about to happen?
+Isn't that just an arbitrage bot?
+This guy is awesome thanks for the link.
+didnt bitcoin printed 21million coins ( money) ?
+I read r/bitcoin and r/darkjokes they are more or less the same.
+So why is it a warning?
+I'd probably pass out if I had to move such sums lol
+Odd it doesn't appear to have used a change address.
+Holy shit
+Considering the widespread decriminalization and legalization movements and laws, these markets might take quite a hit in the coming years.
+I'm just lucky to afford rent. I'm out - just sold my last bitcoin.
+Heh.  It's not *quite* working out for you - is it, Nostradamus?  
+
+What are you shorting at? 5.8k?
+
+You also predicted an imminent 4.5k a few days ago :)
+
+Never happened.
+
+Now that wasn't *too predictable* - was it :)
+How is it predicatble?
+You sound like Trump's less intelligent relative :)
+It's amazing how many people in crypto seem to know what the fuck is going to happen next 😂
+Shhhh. I thought comparing BTC to tulips was played out already
+There are hundreds more similar to that.  Bitcoin is like Rocky. Keeps fighting on, never quits. 
+Bitcoins dead
+I would not be surprised to see 30-35k by year end.  Bull run will probably begin within the next 3 months 
+No. The bitcoin bubble has burst many times and recovered.  My examples provided are during the bursting of one of the bubbles and the aftermath. 
+
+
+So what if bitcoin crashes? Abd doesn't recover? You are comfortable with this expectation?
+This was hilarious. Thank you kind stranger.
+LOL my friend gave me some shard coin so I just traded it for btc 
+No it is a great sign that this locked up coins are going to be but in circulation for people to actually use. The more people who put coins available for commerce, the better. Screw the price. The technology is what is amazing. A truely decentralized medium of exchange. 
+Is coinbase good for people in the UK 
+The last time I saw this happen was right before that nice bull run we saw last week.  Though, I have no idea if the two events are related at all.
+You know what else is weird about this . a few hours before we had that pop on the 29th people started bidding up the prices of hash power on nicehash. They just started doing the same thing a couple hours ago
+That's like saying Ferrari printed money by making cars. Bitcoin needs energy to be created, and fiat or other bitcoin to be bought. 
+Not all. It's still being printed/mined. And after 21M reached. There will be no bitcoin mined...
+
+Not likes fiat money, where you can print forever....
+Because it could potentially be sold on an exchange hence causing a dump. Just giving everyone a heads up
+woopsi typo guess it is gone. I better use copy and paste next time 
+Just pretend it's testnet coins.
+Pot, sure.
+Same, had to sell some to pay credit card debt.
+Hahahahahaha 
+This is a joke, right?
+r/murderedbywords
+Dump after fake pump, that's guaranteed. Isn't that enough?
+Dump followed by a fake pump with low volume, guaranteed.
+Who ia trump btw.
+That's why they spend all their time posting on this sub. Finally something they dont need to know shit about and get attention 
+It is as played out as bitcoin
+https://youtu.be/TnqZl_blT7E
+Rocky notably *loses* at the end of the movie.
+I wish you didn't use Rocky ...... it sort of got stale after Rocky 3 and rest were crap.
+..and no one cares
+what makes you say that
+I would be surprised to see it even claw its way back to 10k by year end.
+As intensely as the 19000 crash? We both know that the answer to that is in the negative. Bitcoin went up and down at times, but it never rose to the level of a "bubble" that "burst" other than in December 2016.
+What?
+Perhaps you're right. I'm not so sure the market can continue to function when Amaaze98 pulls his $45 dollars out though. 
+They have EUR and GBP markets so it should work the same, but I'm not 100% sure.
+I'm a Brit, I have a GDAX account - hard to get as I was not in the UK at the time, but it works fine. Only problem is getting money in/out. I used Coinfloor to buy BTC & transferred across to sell some. When I exit the market I'll do the reverse if coinbase still don't take / send in GBP. Note: I read in the papers that coinbase would but that was back in FEb I think and they still don't.
+Did I miss a bull run last week ? 
+Following your example, bitcoin is the product that people are purchasing with fiat, right? Just like people buying ferraris are converting their money into cars.
+
+A new Ferrari requires hundreds of hours of skilled labor to design, engineer, and assemble. It also requires lots of materials sourced from around the world.
+
+A bitcoin is a form of currency that was created out of thin air. Sure, it's limited, but that doesn't mean it's backed by anything or any more valid than fiat currency.
+Thanks.
+
+But with this quantity, it will probably be OTC else he will be shooting his own foot.
+How is it guaranteed?
+He won in rocky 4
+You didn’t like Rocky 4 with the Russian?  🤨
+
+One of the best training montages 
+I’m kidding 
+I think this bear market will end sooner than previous ones.  Too much is happening in crypto land behind the scenes right now. Lightning network is finally here and growing.  When the bull starts it’s going to be fast and furious.  
+Look at how fast things skyrocketed in 2017.   Sone of those people who left will be back once they realize bitcoin lives on. 
+Bet your left nut on it. That seems to work out pretty well.
+Wrong!
+
+The crashes in April 2013 and November 2013 were worse. 
+
+https://howmuch.net/articles/bitcoin-all-major-crashes
+42.96*
+
+
+Lmao
+Yeah, on Friday it jumped $5,800 to $6,400.
+This is grossly false. Bitcoin is backed by demand and the blockchain. Demand is backed by an ever-fluctuating price, and the blockchain that runs it requires miners and energy to secure transactions.  The fact that bitcoin is finite only augments the value that is put in to create it (out of thin air)...
+
+Speaking of thin air, how's fiat currency valid and backed? Not to mention, the exponentially larger amount of resources required to create it (out of thin air), store it, transport it, distribute/disperse, and corrupt it. 
+You don't think the Bitcoin network and its software doesn't require hundreds of hours of skilled programming? As the software to improve Bitcoin is being upgraded there is an ongoing contribution of code added to the open source process. This code is reviewed and tested, and so forth. 
+
+In this digital age it's surprising that there are still so many people that have not yet adapted to the concept of technology and today's digital value. The properties to work efficiently as a digital currency and store of value and the public acceptance are not advanced quite enough yet for many to envision where this is headed. 
+
+But it's time to stop the "no value" claims. Think for a second about some of the things we place value on. Now think about the coders, miners, hardware and software that will be created to improve mining, the jobs it will create, the traders and investors, the infrastructure, how it's impacting countries all over the world, our financial news, and I could go on. 
+
+Now ask yourelf again, compared to some of the ridiculous things we 'value' in the world of commerce, is it fair to say Bitcoin has no value?
+So much ignorance is displayed in this post. Education could be your friend 
+Precisely.
+
+Given that acceptance by merchants is almost zero, the only real backing for BTC is on the exchanges.  Without exchanges, BTC actually has no value.  Sounds ridiculous but think about that for a moment.
+
+And shandy Chinese exchanges now account for 95&#37; of the world's trades.  Guess what will happen when the Chinese government clamp down on them?
+Yes that's the only responsible way to go about doing it, since no exchange has the sort of liquidity to support such a large sell.
+
+Even so, I believe he moved some to sell on Huobi before, so this is likely to jitter the markets.
+After his best friend was killed.
+Ok, true ... that was a good fight.  But after that, it was mostly crap to fill up Sly's pocket.
+Was that a pump or bull run ? 
+I thought you were a crash troll. What’s up with you lately being so nice?
+Congratulations - you have just described BTC as a speculative asset with no real world usage.
+
+I would really love to be supportive but your post is mostly nonsense.
+
+"exponentially larger amount of resources required to create it"?  That's BTC, not fiat.
+I don't think anyone is disputing that there is value in BTC.
+
+But let's not confuse production cost, value and price.
+
+The fact is that the value that BTC delivers has not changed whether it was priced at $200 (before 13), $1,000 (before 17) and $6,000 (now).  Sure, the cost has been artificially inflated by mining complexity but the value to user has not changed much.  LN is a great technology but has delivered little real tangible value.
+
+That is why a lot of people are saying that BTC is a bubble.  A bubble is when the price has risen disproportionately to it's value.  And for BTC to rise 10x last year with no real increase in underlying value - that is a bubble by any definition.
+Hmm okay - so, back to the Ferrari example:
+
+A Ferrari requires hundreds of ours of skilled labor, exotic materials, etc. and in the end you get a sweet, cutting edge sports car.
+
+Bitcoin also requires hundreds of hours of skilled programming, tons of electricity, mining hardware, etc... and in the end, you get a bitcoin.
+
+Which you can... do what with? Store it, hoping you can sell it to somebody else for more fiat later on? 
+
+If bitcoin is a product the way that a Ferrari is, why was Bitcoin worth 20k a coin not too long ago?
+
+The best use for bitcoin so far has been buying drugs and other shady stuff off the internet. This worked just fine when bitcoin was $20 a coin, too.
+
+The spike to $20k a coin was just because everyone FOMO'd because they'd heard stories of people getting rich and didn't want to miss out.
+
+Bitcoin is pretty much the most fiat of the fiat currencies.
+
+Why do you keep saying the same thing over and over again?  You must have mentioned these dodgy Chinese exchanges about 10 times today.  Also one of your posts you mention that you are going to keep your Bitcoin in cold storage for a while.....
+Was his friend  Bcash?
+Agreed.  🙂
+Ehh, I think that's actually considered a pump.  Sounds like we're both new at this.  Haha
+Wrong again. Do your research before blurting off untruths. Globally, fiat currency, be it hard, cold cash or the digital version of it, requires far more to produce and has a greater negative impact on the environment than cryptocurrencies. 
+
+https://www-ccn-com.cdn.ampproject.org/v/s/www.ccn.com/op-ed-cryptocurrencies-like-bitcoin-consume-significantly-less-resources-than-fiat-money/amp/?amp_js_v=a2&amp_gsa=1&usqp=mq331AQECAE4AQ%3D%3D#referrer=https://www.google.com&amp_tf=From%20%251%24s&ampshare=https%3A%2F%2Fwww.ccn.com%2Fop-ed-cryptocurrencies-like-bitcoin-consume-significantly-less-resources-than-fiat-money%2F
+I understand, but an interesting thing about technology is that we haven't thought of solutions that have not been created yet. This is way too early to assume LN or some later version of it won't deliver much more of what is needed.
+
+Most people never heard of Bitcoin until last year. Look at all that has changed already. Regular crypto coverage in major News financial segments and the controversy over how to deal with this new hydrid entity should say enough. Imagine in 5 more years..
+
+Of course the price of the coin was in a bubble phase last year, one of many in these early days of Bitcoin.
+For all that gave it a go on the last run, there are many times more new people bound to make a modest investment to catch the next price swell and eventually it may level off and enter deeper into the store of value stage. 
+
+Nobody knows for sure, but Bicoin will likely see far more days than us.
+Your brain has been trained to perceive value in the way we traditionally hold it. Bitcoin is a new 'hybrid' entity and trying to comprehend the value in a traditional sense is futile. You need to open up your perception to what can be and what will be. You think anyone in the 60s's would have even envisioned the internet, AI, or many of the innovations we enjoy today?
+As a matter of a fact, there were some very smart people who in the 90's claimed the internet was a huge waste of time and electricity. 
+Because it is true.
+
+Do you have a problem with truth?
+
+Yes, I have not touched my coins for years.  What's the relevance?
+Hopefully.
+If bitcoin dosen't go under 6k again, the last pump was maybe our first bulltrend foundation upward :P
+Sorry, wrong again.  Only 8&#37; of fiat is paper cash, rest are all electronic (like your bank account deposits) and being electronic, is no different from cryptos except it doesn't need resources for mining.
+
+That is why the world is moving more and more into cashless societies.  Branchless Banks is another instrument to enable this as with advancements in e-payment.  When that happens, all the logistical cost associated with paper cash goes away.
+
+Learn more about fintech where the real world lives in instead of wasting your time on BTC youtubes.
+Agree.  
+
+Personally, I think adoption as a complementary (not replacement) currency will take off.
+
+What is really killing BTC - (a) speculation, (b) shady unregulated exchanges, (c) crazies wanting to kill USD.
+Just seems like you are bashing Bitcoin all the time.
+I hope so!  Things were feeling grim last week.
+Did you even read the article? ...Another fossil that can't be reached. Good luck to you. 
+Yeah an alternative form of currency that is global and co-exits, I totally agree. It's potential to open new doors of how we exchange and store value is very big.
+Dude, read my post history.  Since when am I bashing BTC?
+When bitcoin is always about to die, It turns full optimism! :\^)
+Yes, I did.  And the author clearly does not have a clue on the banking industry.
+
+Her claim on cost lies on the basis of the large number of physical resources involved (people employed, physical banks, etc).
+
+What she clearly does not understand (or just creating FUD) is that banks do a lot more than cashing services.  They provide services like insurance, loans, wealth management, merchant services (trade financing is huge), foreign currency exchange, bank guarantees, etc.  Look into a typical bank setup and you can see it for yourself.  None of these services are provided by cryptos (which is just an intermediary for retail transactions).
+
+Like I said, learn to read more.
+Ok, well I'm sorry if I got it wrong.  

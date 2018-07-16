@@ -2,106 +2,136 @@ import pandas as pd
 import numpy as np
 from sklearn import svm
 import sklearn.decomposition as pca
-import matplotlib.pyplot as plt
-import seaborn as sns; sns.set(font_scale=1.2)
+from tkinter import messagebox
+import Distribution
+from datetime import timedelta, datetime
 
-# Pickle package
-import pickle
 
-def predict_movement(day_diff, volatility, sia):
+
+def predict_movement(day_diff, volatility, sia, model):
     if(model.predict([[day_diff, volatility, sia]])) == 0:
         return 'Down'
     else:
         return 'Up'
 
-# train_data = pd.read_csv('trainMe.csv') #--- USE SIA2 instead of Volatility
-# test_data = pd.read_csv('testMe.csv')
-# train_data = pd.read_csv('combinedTRAIN.csv')
-# test_data = pd.read_csv('combinedTEST.csv')
+def trainAndtest(money, prevDays, short, long):
 
-train_data = pd.read_csv('checkTRAIN.csv')
-test_data = pd.read_csv('checkTEST.csv')
+    initialMoney = money
 
-train_data['Volume'] = train_data['Volume']/1000000;
-test_data['Volume'] = test_data['Volume']/1000000;
+    train_data = pd.read_csv('train.csv')
+    test_data = pd.read_csv('trade.csv')
 
-print('Length train data: '+str(len(train_data)))
-print('Length test data: '+str(len(test_data)))
+    train_data['Volume'] = train_data['Volume']/1000000
+    test_data['Volume'] = test_data['Volume']/1000000
 
-# Plot two features
-sns.lmplot('Day Diff', 'SIA', data=train_data, hue='Movement',
-           palette='Set1', fit_reg=False, scatter_kws={"s": 70})
-plt.show()
+    print('Length train data: '+str(len(train_data)))
+    print('Length test data: '+str(len(test_data)))
 
 
-# Specify inputs for the model
-imp_features = train_data[['Day Diff', 'SIA', 'Volatility']].as_matrix()
-movement_label = np.where(train_data['Movement']=='Up', 1, 0)
+    # Specify inputs for the model
+    imp_features = train_data[['Day Diff', 'SIA', 'Volatility']].as_matrix()
+    movement_label = np.where(train_data['Movement']=='Up', 1, 0)
 
 
 
 
 
-# PCA fitting
-PCA = pca.PCA(n_components=3)
-PCA.fit(imp_features)
-new_features = PCA.transform(imp_features)
+    # Fit the SVM model
+    model = svm.SVC(kernel='linear')
+    print('Fitting model..')
+    model.fit(imp_features, movement_label)
+
+    i=0
+    accuracy=0
+
+    while i < len(test_data):
+        print("*********************************************")
+        result = predict_movement(test_data['Day Diff'][i], test_data['SIA'][i], test_data['Volatility'][i], model)
+        bet = False
+        movement = None
+
+        dateNow = datetime.strptime(test_data['Date'][i], "%Y-%m-%d %H:%M:%S")
+        dateBack = dateNow - timedelta(days=prevDays)
+
+        dateNow = datetime.strftime(dateNow, "%Y-%m-%d")
+        dateBack = datetime.strftime(dateBack, "%Y-%m-%d")
+
+        print("Create distribution for " + dateBack + " - " + dateNow)
+        resultDistr = Distribution.showDist(dateBack, dateNow, 5)
+        print(resultDistr)
+        up = max(resultDistr)
+        down = min(resultDistr)
+
+        if result=='Up' and up[0]>=long:
+            print("Going long because Up is ->"+str(up[0]))
+            movement = up[0]
+            bet = True
+        elif result=='Down' and down[0]<=short:
+            print("Going short because Down is ->" + str(down[0]))
+            movement = down[0]
+            bet = True
 
 
-# Fit the SVM model
-model = svm.SVC(kernel='linear')
-print('Fitting model..')
-model.fit(new_features, movement_label)
+        if (result == test_data['Movement'][i]):
 
-i=0
-accuracy=0
+            if i < (len(test_data) - 1):
 
-while i < len(test_data):
+                print("TRUE prediction for date: " + test_data['Date'][i])
 
-    result = predict_movement(test_data['Day Diff'][i], test_data['SIA'][i], test_data['Volatility'][i])
-    if(result == test_data['Movement'][i]):
-        print('Accuracy result for: ' + test_data['Date'][i] + result + ' -> TRUE')
-        accuracy=accuracy+1
+                if bet:
+                    print("NICE! I bet for that")
+                    moneyMade = abs(test_data['Close**'][i] - test_data['Close**'][i + 1])
+                    print('Money made :' + str(moneyMade) + ' for day ' + str(test_data['Date'][i]))
+                    money = money + moneyMade
+
+            accuracy = accuracy + 1
+
+        else:
+
+            if i < (len(test_data) - 1):
+
+                print("FALSE prediction for date: " + test_data['Date'][i])
+
+                if bet:
+                    print("oops.. I bet for that")
+                    moneyLost = abs(test_data['Close**'][i] - test_data['Close**'][i + 1])
+                    print('Money lost :' + str(moneyLost) + ' for day ' + str(test_data['Date'][i]))
+                    money = money - moneyLost
+
+
+        if result == test_data['Movement'][i] and bet:
+            messagebox.showinfo("Result", "Date: " + dateNow + "\n\nI predicted a " + result + " movement, with a possibility of a " + str(movement) + "% price movement."
+                                +"\n\nNice! It seems I was correct.\nYou won "+str(round(moneyMade,2))+"$")
+
+        elif not result == test_data['Movement'][i] and bet:
+            messagebox.showinfo("Result", "Date: " + dateNow + "\n\nI predicted a " + result + " movement, with a possibility of a " + str(movement) + "% price movement."
+                                + "\n\nOops, it seems I was wrong..\nYou lost " + str(round(moneyLost,2)) + "$")
+
+        elif result == test_data['Movement'][i] and not bet:
+            messagebox.showinfo("Result", "Date: " + dateNow + "\n\nI predicted a " + result + " movement, with a possibility of a " + str(movement) + "% price movement."
+                                + "\n\nOops, it seems you did not bet because of the price movement probability")
+
+        elif not result == test_data['Movement'][i] and not bet:
+            messagebox.showinfo("Result", "Date: " + dateNow + "\n\nI predicted a " + result + " movement, with a possibility of a " + str(movement) + "% price movement."
+                   + "\n\nGood decision! You did not bet, because the of the price movement probability")
+        i+=1
+
+
+
+    final_accuracy = accuracy/len(test_data) *100
+    print('ACCURACY IS:'+str(final_accuracy)+'%')
+    print('Wallet balance is at: '+str(money))
+
+    finalProffitLoss = money-initialMoney
+
+    if finalProffitLoss>0:
+        messagebox.showinfo('Conclusion', 'Accuracy: '+str(round(final_accuracy,2))+'%\n\nFinal wallet balance: '+str(round(money,2))+"$"+
+                            "\n\nProffit: "+str(money-initialMoney))
     else:
-        print('Accuracy for: ' + test_data['Date'][i] + result + ' -> FALSE')
-
-    i = i + 1
-
-final_accuracy = accuracy/len(test_data) *100
-print('ACCURACY IS:'+str(final_accuracy)+'%')
+        messagebox.showinfo('Conclusion',
+                            'Accuracy: ' + str(round(final_accuracy, 2)) + '%\n\nFinal wallet balance: ' + str(
+                                round(money, 2)) + "$" +
+                            "\n\nLoss: " + str(round(finalProffitLoss,2))+"$")
 
 
-
-
-
-
-# # Get the separating hyperplane
-# w = model.coef_[0]
-# a = -w[0] / w[1]
-# xx = np.linspace(-10000, 10000) #min - max feature value
-# yy = a * xx - (model.intercept_[0]) / w[1]
-#
-# # Plot the parallels to the separating hyperplane that pass through the support vectors
-# b = model.support_vectors_[0]
-# yy_down = a * xx + (b[1] - a * b[0])
-# b = model.support_vectors_[-1]
-# yy_up = a * xx + (b[1] - a * b[0])
-#
-# # Plot the hyperplane
-# sns.lmplot('Close Off High','Day Diff', data=train_data, hue='Movement', palette='Set1', fit_reg=False, scatter_kws={"s": 70})
-# plt.plot(xx, yy, linewidth=2, color='black');
-# plt.show()
-#
-#
-# # Look at the margins and support vectors
-# sns.lmplot('Close Off High', 'Day Diff', data=train_data, hue='Movement', palette='Set1', fit_reg=False, scatter_kws={"s": 70})
-# plt.plot(xx, yy, linewidth=2, color='black')
-# plt.plot(xx, yy_down, 'k--')
-# plt.plot(xx, yy_up, 'k--')
-# plt.scatter(model.support_vectors_[:, 0], model.support_vectors_[:, 1],
-#             s=80, facecolors='none');
-# plt.show()
-
-
-
-
+# trainAndtest(10000, 2, -0.2, 0.2)

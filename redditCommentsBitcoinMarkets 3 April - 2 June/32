@@ -1,0 +1,1387 @@
+[Daily Discussion] Wednesday, May 02, 2018 -- TITLE
+#New post: [\[Daily Discussion\] Thursday, May 03, 2018 →](https://www.reddit.com/r/BitcoinMarkets/comments/8gnlyb/daily_discussion_thursday_may_03_2018/)
+I'm pretty uncertain on the direction that btc is going to move in the short term. But what I **am** certain of is that Bitmex is going to absolutely shit the bed for the 100th time in the past few months. 
+
+It's already lagging hard, and nothing is even fucking happening.
+Not a whole lot to add on the TA front, but I will say that this battle in the upper $8,000s and lower-to-mid $9,000s is very interesting, considering we did pretty much the same thing on the way down from $11,700:
+
+https://imgur.com/a/2MFKEUf
+
+It's always just interesting to me how certain zones can result in inverse behavior depending on which direction the market is trending when it's within that zone. 
+
+Anyhow, still long from $8,770ish and holding it until breakeven. 
+
+EDIT: Those who squint hard enough might notice a potential inverse head and shoulders in the chart I posted above. The neckline is approximately $10,000 and the target would be somewhere in the $13,500 range.
+
+I wouldn't hold my breath for it to play out like that though. The last inverse head and shoulders we were all salivating over certainly didn't play out as expected. 
+
+
+Everyone's been begging for slow and steady the last few months - we finally get slow and steady and everyone loses their shit :p
+15 min BBands are starting to neck quite a bit, currently tightest they've been since we first broke into the 9ks, and the 9.55k resistance is sloping down towards the more short term support we've had since yesterday. Those lines are currently right in the vicinity of the 15 min BBand top/bottom.
+
+We'll probably see some short term volatility (relative to most of today) in the coming hours.
+
+Update: broke up, yippe
+Looks like this is the lowest volume daily thread this year
+ETH just broke out, BTC should follow suit shortly
+
+Edit: yea IDK what that was, it has seemed the ETH/BTC ratio is leading the way on this bull run, but BTC didn't give a fuck about that ETH FOMO just now
+Still, ETH ratio should bleed here, making a scalp with the ETH I had.
+Sorry for all the ETH talk...
+Trading setup I am looking for, a breakout of the W4 ABCDE triangle, it won't happen for a few days so patience here will be rewarded.
+
+https://www.tradingview.com/x/1v4VlMJj/
+
+The stops in this one must be hard, if it moves against you it will move fast and hard. The safer play is to wait for the confirmed break but this setup lets you get in on better prices by scaling in at various points as the setup confirms.
+
+These entries can only be taken once the market confirms a third touch on the bottom tread-line, DO NOT enter them before that. Its also worth noting E can very often overshoot or not reach the treadline so be prepared for a imperfect touch. If it overshoots it can't pass the C point at 8810 or the setup is completely invalidated.
+
+* Entry: 9100, 9263, 9362.6
+* Stop: 8810, 8980
+* Targets: 10350, 10650
+* R/R: 4 ish* (Average entrys and stops moving make this difficult to calculate)
+
+Good luck, happy trading and keep that capital safe.
+I closed my long from $9020 at $9220.  I suspect price will move back down to the $9000 range in the coming few days.  We're beginning to build [a large pennant](https://www.tradingview.com/x/Py7t2rvy/) on longer time frames. If the support lines hold, this will be a good opportunity for range trading. 
+
+Any break above the upper trend line is a buy and positions us for a potential $10k run.  I have buys setup above the line should this break upwards early.
+
+We're nearly 2 weeks from breaking the log resistance with no immediate signal that this is going to retest the line.  Currently cautiously bullish. 
+We are in a really big symmetrical triangle on the 4h. The volume fits perfectly. I know several others have pointed this out as well, though. I'm really bullish right now. When we break up from this, we are going to have fun. I'm gonna open a long when we retest support which I think we will do one more time before breaking up. It will still be without any leverage though, because this can still fail to break up.
+Right on the edge of breaking out of our bull pennant. If we break up, I expect 9350 to hold as resistance. We don't have the volume to bust through that line yet. 
+
+https://www.tradingview.com/x/zjBLAITk/
+
+Setting stops on my 9115 long at 8960 for now. 
+
+So I take it you all have heard about BitMEX’s [new XBT7D_U110 contract](https://www.bitmex.com/app/contract/XBT7D_U110)?  
+
+Anyway, so I figure I’ll have some fun and figure out how to price these weird fixed-strike arithmetic Asian call options thingies they got. The problem I’m having is that every time I input the current data:  
+
+Strike  | Mark Price | Multiplier | Expiry 
+:--------|:--------:|:--------:|---------:
+10,250 | 0.00314 | 0.1 | in 2 days   
+
+
+-my program keeps returning a NaN value equal to  ⇒ ROFL^10^2
+
+
+Anybody know how to fix this?  
+
+*****  
+
+
+On a more serious note, if anyone knows what kind of hash the “anchor market maker” is smoking while they’re pricing these contracts then that’d be great. 
+
+Because right now it looks like an embarrassing number of people just threw 148 BTC (and counting) into a black hole (while probably expecting it to work like a binary option).  
+
+So because I am bored waiting for my trade to come up heres an update. 
+
+[Pretty textbook in this leg so far.](https://www.tradingview.com/x/3QrcaXuq/)
+
+Edit: that took all of 5 seconds to ruin my chart lolz btc you funni.
+
+More useful information/advice as everyone is screaming about BBands. I think I few people here are going to be left hanging here. I don't expect a breakout to occur until the late on the 5th of May(UTC). 
+
+[Chart explains it all](https://www.tradingview.com/x/qiDtEriX/)
+
+Sit tight guys we might be here a while, even longer if we finish the pattern with another triangle making it an ABCDEFGHI.
+
+I guess I'll break this awkward silence: 15m bbands are tight like a colon, we should be popping soon. The only question is, in which direction?
+
+edit: I'll add more to this shitpost. I closed half my long at 9220 expecting some downward movement from reaching the top of the large triangle we're in on the 4h. For once i would like the price to dip a bit, so i could add more to my position again... would hate to see this breakout upwards after i reduced my position. 
+
+edit #2: I'm seeing a pennant on the 15m. This plus the BBands makes me certain we're moving shortly 
+I think I'm finally changing my sentiment. That previous drop out of the triangle should have us in the mid 8's right now but it was quickly bought up and we are now above 9.1k. As others have pointed out he have a hidden bullish divergence on the 4hr and 6hr RSI. The 12 hour MACD, if we stay around this current price, is giving me a buy signal and 4hr MACD will have a bullish cross. Twice now we have attempted to push past 8.8 and failed. I'll be going long on MEX at the end of the 12 hr candle if it still looks good or if we break 9350, whichever comes first, with liquidation under 7k, no stops. If it doesn't pop up now and we do go down to the mid 7's I'll just ride it out and add more because this thing is getting real bullish.
+
+Edit: 12hr just closed and things look good so I'll be going long here. Entry at 9155.
+I made some charts!
+
+Short term: https://www.tradingview.com/i/Hcrh0sgU/
+
+Short term, there's the descending resistance from the last few local highs drawn along with a horizontal support zone (blue lines). Was a little liberal with the horizontal support in cutting wicks but the general idea is there and it closely lines up with the VPVR high volume node. On the flipside, even if we break up through the descending resistance, there was a lot of volume in the 9.2-9.4k range that could make it serve as some resistance as well. A break through of 9.4k, avoiding those high volume nodes, would be very bullish. Meanwhile, I'm not overly worried until 8.8k breaks as we chop around in the lull between the two local high volume VPVR nodes.
+
+The blue lines do form a descending triangle, but not going to overly preoccupy myself with that until it breaks because the horizontal support it would entail falling seems pretty strong. Same with the *forming* H&S (purple). As with the iH&S on the long term, that H&S literally means nothing until we return back down to 8.8k and then 8.8k breaks. Furthermore, unlike the larger iH&S, the volume on the shoulders doesn't really fit the pattern (and volume is really important for a H&S). Same result as the descending triangle though if it *does* break down.
+
+Longer term: https://www.tradingview.com/i/D2ly6cV0/
+
+Using the 4 hr chart, we now have a hidden bull divergence on the RSI with the local low immediately preceding the gigantic short squeeze. That's not overly significant, as the lows I'm comparing aren't well defined for the price change, but it does show the RSI has largely cooled off from the recovery from 6k. 
+
+I've also drawn the large iH&S. It's important to recognize the fact that it *looks* like it's forming doesn't make it any more likely to complete than if it wasn't there at all. It *will* be a valid formation *IF* the neckline (~10k right now) breaks as the volume fits it to a T - highest volume on left shoulder with relatively lower head volume that increases (largely due to crazy short squeeze) on the advance back up from the head, followed by a relatively low volume right shoulder. 
+
+Using VPVR, it makes sense that we're bouncing around this current range as we're in between two outcroppings on an overall large volume node. Note that if we *do* break out of 10k, it'll be relatively smooth sailing based on that VPVR, giving that iH&S some more confluence *IF* it plays out. VPVR also tells us, in the event 8.8k breaks, to maybe expect token support around 8.5k from the breakout of the log ATH resistance, arguably less than the 8.8k support. Wouldn't really expect it to hold. The zone surrounding 8k, however, is a strong horizontal support area (especially recently) and we could maybe see a larger reversal there.
+
+Overall, continuing to avoid trading this as it's chopping around with my risk profile being currently in some alts with majority BTC/ETH. Watching 8.8k below (move into fiat/more heavily BTC/ETH), or a move above 9.4k (shift some coins into cold storage).
+
+Edit: Bonus chart! https://imgur.com/a/MK0S2qN
+3D Stoch RSI cross in overbought has been a bad sign (similar to the daily but more selective) throughout the bear trend. In the bull run all it indicated was a short term correction with sometimes the market ignoring it all together, so if this is the real recovery don't expect a lower low from it. Also note it's not always an immediate fall off after the crash - sometimes it's come a little later.
+Good morning traders. This is my first day back at the computer for a while. 
+
+Currently I've been watching our higher lows, lower highs we've been making on the 4h inside this symmetrical triangle. I've got some limit orders staggered all the way down to the bottom support of the triangle, hoping to pick up a bigger position and DCA down.
+
+Other than that we seem to recover from dips fairly easily, and 9k is still holding more or less. 
+
+Have a good day and make some money!
+[https://www.newsbtc.com/2018/05/02/coinbase\-to\-launch\-over\-the\-counter\-block\-trades\-says\-report/](https://www.newsbtc.com/2018/05/02/coinbase-to-launch-over-the-counter-block-trades-says-report/)
+
+Interesting development or inconsequential addition to a major exchange?
+https://www.nytimes.com/2018/05/02/technology/bitcoin-goldman-sachs.html 
+
+thoughts?
+What is happening with the volume? 
+
+People sitting on the sidelines waiting for a direction?
+
+Trading the channel has become unprofitable when it is so tight?
+
+People been burnt by the last few weeks getting nervous?
+Finex has a pretty thick ask book going up and whenever we go up too high someone just dumps a bunch on GDAX. I understand why since we are at resistance but ever since we broke out of that triangle and we didn't just dump hard I can't see us going down further. There just doesn't seem to be any sellers here, so, even at resistance, it just doesn't make sense to sell, imo. R/R isn't that great.
+
+Edit: GDAX just popped above resistance. We'll see where this goes.
+I'm getting the same vibes as last year around this time, anyone else?
+This has the potential to get super funky super fast.. count me in.
+
+Stops around 9k
+
+Edit: downtrend line I'm watching broken
+What im looking at:
+
+1D view (zoomed out): https://www.tradingview.com/x/Wz86vy93/
+
+4H view (zoomed in): https://www.tradingview.com/x/Foc9gItx/
+
+If we test and get rejected at top of 1d triangle, ill likely short to 8500 with stops around 9850.
+
+Below 8500 ill start adding to cold storage and slowly accumulating shitcoins. Hunt for longs 7600-7100 range and if we drop below 6675 then I pull the plug on all trades and re-evaluate.
+
+What do you guys think about my plan? I try to have one to just follow it like a robot so it’s a step in the right direction, but what good is having a plan if the plan sucks?
+Long from 8.9, added a bit along the way to average out to 8950. Wish I had taken some profits at 9.2 now, bleh, what a waste this'll be if it breaks back below 9.
+I don't know if its better to [chart](https://i.imgur.com/d7JTKKy.png) a line from 9700 or 9500.  its looking like the orange line is winning for now.
+[orange line down](https://www.tradingview.com/x/QFs5ZzPP/).  Lets go purple line
+What happened to the calls from that woman at Goldman? Sabera jaffari or something was her name from September time last year.
+Hello wedge breakdown. Hopefully it's just a DCA opportunity and doesn't turn cascading: https://www.tradingview.com/x/p4R6jXhu/
+If this line breaks in the near future, I'd expect to see some moderate to serious fireworks to the upside:
+
+https://imgur.com/a/m7efnMX
+
+Just something to keep an eye on.
+
+EDIT: I feel this line is significant mostly due to how long the market has been consolidating and BBand compression on the 6h and 12h. The market is looking for an excuse to make a strong move in a particular direction, and breaking through this resistance line could be the push it needs.
+
+Conversely, bouncing off of it for the 5th time could trigger a major downside push below $8,800.
+this is starting to look like a descending triangle to me. daily macd is also worrying.    
+Breaking down here would be super bearish, but i have a hard time believing we will break down after a long consolidation like this
+anyone have the tradingview link to that "prophet" dude who's got things turning bearish up ahead? also what's his story? 
+I previously said that I opened a long around 9030~9050. Upon seeing this failure after failure, I have run for my life:
+
+https://www.tradingview.com/x/b9AgIndV/
+
+Of course, this could still skyrocket up
+this reminds me of the boringness of when we were playing around in the 6400-6600 zones. IMO we will go up (bias i'm long still), but the selling has generally been stopped at 8,800 over and over again and it seems we keep making higher lows along the way. 
+Hey guys! First time comment and new to TA and bitmex so go easy on me. Opened a long yesterday at 9027 and closed rn at 9235. Here is my tradingview chart https://www.tradingview.com/x/GwilCVDQ/ . I know a lot of ppl have the same triangle but so far xbt seems to be following it rly well. I would like to see a break out after the triangle as this would follow my adam and eve pattern shown here in pink (https://www.tradingview.com/x/NOMF8dPS/) . Lemme know what u guys think! 
+
+This is pretty much un-tradable right now unless you have a long entry from 87-8900 or a short entry from above 9500. 
+
+Giant descending wedge broke up to 9200, but formed an ascending wedge that broke down to 9030 all while we sit inside a symmetrical triangle on the 4h, while there could be an inverse H&S on the 1D and a regular H&S on the 4H. 
+
+Last night we broke down from a bear flag ( type thing ) that only brought us down 100$ to the 8995 range. From the 26th, we broke up from the exact same thing with a 300$ candle, would have expected more of a breakdown. 
+
+Sitting on your hands for now seems like a good idea until 
+A) 9400-9500 fails again for a short entry
+B) We break down and find resistance in the 8800 range again for another long
+C) Breakdown to 8600 ish where you could open a short from 8600 with targets of 7800 
+D) Potentially open a long from above 9,800$ if it breaks with conviction putting the double top down in the dirt. 
+
+Good luck all 
+
+Edit Charts ( On iPhone and it’s sloppy )
+4H:  https://www.tradingview.com/x/zH8mbiDY/ 
+
+30 Min:  Wedge Breakdown:  https://www.tradingview.com/x/ZhvrfZrr/
+
+1D: INV H&S:  https://www.tradingview.com/x/NXBC5ZOK/
+
+Edit Edit: Rising wedge on the 2H? 
+
+https://www.tradingview.com/x/C8VAYqS0/ 
+The next 30 minutes are going to be so juicy: 
+
+https://www.tradingview.com/x/QDouedBH/
+
+Rising wedge X New resistance line 
+Last time I mentioned the effect of the alts on the BTC price I got downvoted but anyway, I feel I need to repeat it: guys, you just can't and shouldn't ignore the fact that it's the alt season when you're making predictions for BTC. Like it or not BTC is still the leading gateway for alts so there is an unavoidable interference. This 9k is just not the same as the last couple of times we've been around 9k where alts were in the process of slowly dying.
+Hi all.
+
+So we broke out of the bear whatever but got stopped at the top of the downtrend channel that we've been in since 04/29. We could still be in a bull flag though. 
+
+https://www.tradingview.com/x/wYLEWWqc/
+
+
+This downtrend channel is currently inside a bigger [symmetrical triangle](https://www.tradingview.com/x/7K2sVWpe/).  Interestingly, this symmetrical triangle is cut out in half by the 0.5 fib level of the retracement from 11.7k to 6.5k. We can see that the 0.618 level was tested at 9.7k but rejected as it was a bit premature. 
+
+Now if we don't break up from the downtrend now, and don't bounce off of the bottom of the symmetrical triangle (at 8900 approximately) Then I think we could find support anywhere between 8500 (0.382 fib level) and 8750. That's where I'll put my long if the symmetrical triangle breaks down. 
+
+If we do break up from the downtrend now, or bounce off of the bottom of the symmetrical triangle, then I think we could see more sideways/coiled up movement for a few days (around 9k) before making a decisive move. I tend to think that this move would be up, but I have a slight bullish bias.
+
+
+EDIT: Bonus macro view: https://www.tradingview.com/x/W8uHoyNp/
+
+Fib retracement from 19k to 6k. We are right on the 0.236 level. Blue line is the [monthly downtrend](https://www.tradingview.com/x/zqOlLvsg/), but it has only 2 points of contact so not very solid. 
+Can someone ELI5 how lending on Bitmex works? I have no clue about swaps  but would like to understand a) how to lend BTC on mex b) how it works behind the scenes and from these two hopefully c) what are the risks involved
+this sideways is weird. usually when BTC is like this, the alts would pump. but it's been the whole day that BTC has been on a sideways movement, and the alts are following suit. 
+Just scaled out half my long i opened up at 9k this morning, at 9235. I'm gonna 'buy this dip', closer to the bottom of this symmetrical triangle in anticipation of this breaking out upwards. 
+
+There's still roughly 2 hours until this 4H candle closes, but it appears we're going to be making another lower high in this consolidation area. 
+Well, we ended up painting (or having it painted for us) a massive bull penant here... in a few days things will get interesting...
+Noob trader here, opened a long at $8924 last night, what do you guys think is the best action here? take some small profit now? or just set a stop at break even and let it ride along?
+*tinfoil hat alert*
+
+The buys on Finex for last 2 hours are roughly equal to to the sells on GDAX for the last two hours.... is it possible that someone is washing USDT into USD? 
+
+Could explain that 50+ dollar spread. 
+
+https://imgur.com/a/mesNxR3
+Added to my long (june futures). CA now at 9100 (started at 9300, could reduce it by some good scalps on the way down yesterday). I think the long/short ratio looks super healthy, while the support at 8800~~ seems solid so far. Will DCA down until 8650. Stop loss at 85xx, where i think that our healthy consolidation is invalidated for the moment and we might see some additional down movement.
+Daily Stoch RSI is almost reset, while I don't generally think RSI is the best indicator, the daily has been fairly reliable for upside moves.
+
+Edited to add Stoch
+I canceled my sell at 9.8k
+
+Its been sitting there for 6 days at this point, if it moves up it will be unexpected to me, maybe it will be a 1k dildo out of nowhere in which case I lose btc, the only currency that matters to me.
+
+I'll wait for the next bullrun, my first prediction for 9.6 was 200 to low but I made a nice bit of profit so I see no reason just to think my 2nd call for 9.8k was just 300 to high when it hit 9.5 I think its a little bit of a stretch to think the 10k physiologic barrier is causing an effect that far away, but eh, I don't like the odds anymore. The barriers should be weakening just by being nearish to it for so long and the barriers where part of my original plan.
+
+Can we see some volatility I'm bored.
+Still watching this triangle I draw a few days ago https://www.tradingview.com/x/5ZMI1ZVF
+
+Still also thinks it would be healthy with a real quick hard unforgiving test of 8600 and see if this the new short term bottom. But I opened a small maybe long at 9170 when this bigger move just happened
+
+In other news, I have now read half of Reminisence of a Stock Operator and recommend it to everyone. It's around 100 years old but it's basically 90% trading mentality now and then, people getting "secret tips" from companies and their stocks, people gambling away on margin, people trying to front run exchanges and so on
+We now have hidden bull divs on the 4 hr / 6 hr / 12 hr with pretty much any local dip post BGD. You could say the local lows on those time frames haven't been particularly well defined so the divs are weak signals, but it certainly shows the overall trend of consolidation has caused the RSI to cool off quite a bit. Daily still relatively hot compared to the majority of the bear market.
+So guys, I'm not an expert, but consolidating at these prices after a green month seems bullish to me?
+The hopium for me these days is consolidation anywhere below $10k for the next few months or a year. I feel like $100k\+ is only a matter of time and I'm merely hoping I can stockpile more and more before then. 
+Bitfinex USD frr is moderatin a bit. Since we have not gone down, I infer cash is arriving. So we go up.
+Noobs asking how to get long on leverage is generally a bearish sign.
+1W and 3D bbands.
+
+Hold your asses. BBands are a money maker...
+GDAX leading heavily
+FYI, trailing 24-hour trading volume across everything is roughly 50% of what it was at the peak of our most recent pump (4/24): https://imgur.com/a/6yigQuq
+
+Also, FRR is still > .10 daily. USDT-denominated primary pairs are leading the market (OKEx, Binance) where wash-trading/#manipulation is a known thing.
+
+Good luck to anybody longing here. I'm happily sitting in fiat until we get a clean break of resistance.
+[removed]
+wanted to go in but again.. CME futures are getting more and more retail just like bitmex now FOMO 50$ premiums today.  Also some alts going crazy today. shorts are covering, but longs not coming in.  Still too tough to call.  Not clear enough to justify these premiums
+
+
+
+
+[removed]
+We broke the 9160 resistance, and held good for now.
+BGD incoming? (wishful thinking)
+Well gdax decided to bull now
+i just sent bch and then btc about 30 mins after to the same exchange, my btc transaction confirmed first, and 15 mins later my bch is still pending.. bleh
+Lol check out that gdax dump with twice as much volume as that rise, looks like gdax is expecting downside lately... very bearish vs finex
+[Ichi 4H](https://www.tradingview.com/x/Go2VeO2Q/) showing resistance at the top of the kumo at 9200 which lines nicely with the triangle a lot of other people have been drawing in here. Breaking past that would find next resistance in that purple box where the chikou (black span) kept bouncing down from, in the 9350s.
+
+Failing to break the top of the kumo could send us back to the bottom of the triangle/kumo to that purple box I've drawn. Which is around the 8800s where we've had ton of support. Falling through that I'd short from there with a target of 8400s and lower to S1 pivot around 8200s.
+
+I'm currently long from 8890 with stops around 8790 since around Friday. I'd like to take profit at 9700s though but I'll take anything lower if this starts to fail on the way up.
+
+Looking at the [12H](https://www.tradingview.com/x/GU3X4AEL/) and how we keep hovering above the kumo keeps me bullish.
+[removed]
+Strong resistance at $9700. If the bulls can't break through that by the weekend, I think we will re-test $8600. Very strong support there.
+Bitfinex appears to have USD wire deposit / withdrawal options enabled again.  Didn't see any announcement about that, but that seems significant.  Anyone know when that was re-implemented?
+This is pure hopium.
+
+
+
+https://www.tradingview.com/x/7FHouDR5/
+
+
+
+Adam and Eve Double Bottom on the 1h will be confirmed if we cross 9500.
+
+
+
+I do not think it will happen.
+
+
+
+Again. Pure hopium.
+
+
+
+But it would be nice.
+deleted  ^^^^^^^^^^^^^^^^0.0375  [^^^What ^^^is ^^^this?](https://pastebin.com/FcrFs94k/53984)
+[removed]
+Zoomed out to 1D chart \(BFX\): It seems that we have been "fighting" to break through an adjusted downtrend line going back to at least Jan 7, 2018, maybe even as far back as Dec 19, 2017, with several support points \- see screen shot. What do you think, relevant pattern?
+
+[https://imgur.com/a/3hVBtYm](https://imgur.com/a/3hVBtYm)
+
+Interestingly, the current symmetric triangle points exactly to the $9.2k resistance line, meeting it on May 6. So I guess either way we will find out in the next few days...
+Its now been a week since we have been more than 500 away from 9k
+
+When you draw a wedge they cross at 9050-ish on may 9
+
+Boring week ahead, only acts of god and his blessed dildos will change this
+[removed]
+What is up with the all time low comment count? Does this usually happen where we are in price action?
+Commented a couple of days ago regarding a potential ABC correction for the high of 9500. Looks to be more like a potential ABCDE symmetrical triangle correction. 
+
+Anyone have any similar thoughts on the matter? 
+/u/firestorm93 
+Noob question. If I open a leverage long and have enough funds to back me up. Can I keep adding to my long to  keep from getting liquidated?
+Did anyone download Philakone's tutorial videos before he deleted them off YouTube/Steem
+My $8750 limit buy is starting to get a bit discouraged. Still got that hopium that the mad mass market sellers will get it there though.
+I'd reckon we test 9k one more time
+[deleted]
+Going to make a bold prediction: I think both the S&P500 and Bitcoin are going to make some spectacular gains over the next 2-3 years before the next correction setting crazy ATHs. It will be a golden age with many people claiming that this time its different. 
+
+Of course it won't be different and we will see an equally spectacular correction after. The correction won't bring us back to current levels though and we will continue humanity's uptrend into infinity thanks to science, technology and space travel. 
+[removed]
+Fair warning: these charts will give your eyes cancer.
+
+So we're right now just managing to stay inside the old pitchfork uptrend channel while also potentially being in the new downtrend channel: 2h chart https://www.tradingview.com/x/dAkT50ej/ 
+
+Zoomed in to 15m: https://www.tradingview.com/x/zhZcNv2Y/
+
+So depending on which channel you believe in, this is either a clear buy signal (old uptrend) or clear sell signal (new downtrend). Which really tells me nothing, which tells me to stay out.
+
+
+[removed]
+Anyone follow this Marius dude on twitter? He claims Litecoin is going to double within two weeks.
+[removed]
+[deleted]
+Good morning NYC
+[removed]
+[removed]
+So we're close to breaking bbands.
+Kraken usually goes 10$-30$ above. Since this afternoon is trading 10$-20$ below. I know it has low volume, even so i find it weird. 
+So you're saying the fact that I don't currently have market stops in place is a bad, bad thing?
+>It's already lagging hard, and nothing is even fucking happening.
+
+The idea of having a bot placing orders every 10s and measure the response ms time seems more and more good to predict a move :)
+Does anyone's computer fan start spinning faster as a move happens? My laptop fan has been a great predictor of an impending move with about 5 tradingview windows and bitmex open
+I wonder if Bitmex has any plans to actually fix their site? It's beyond shitty at this point. 
+chewy, I'm not a TA guy nor am I an avid trader, but I want to say thanks for all your posts (and to everyone else). Before this sub, I was blindly going into BTC and alts, but I feel like now I have somewhat of an idea of what to expect and you've introduced a more level headed approach to my panicky-ness. Yes, no one can predict market movement, but you provide a lot of peace of mind with your posts.     
+Chew, start a daily YouTube channel please! Or any other video medium where we can donate and watch your TA updates. 
+Is a very butt-ugly head and shoulders however you like to slice it.
+
+https://www.tradingview.com/x/vu3assQb/
+
+Am pretty sure [this gap](https://www.tradingview.com/x/hL68fHr0/) invalidates any HS pattern drawn like it, the armpits should reach the neckline.
+
+
+Seems like [a head and shoulders](https://www.tradingview.com/x/S6pw2e9X/) is clearly forming on the 4h though...
+I’m looking for a drug fueled weekend of mania and insanity. I also hope the price of BTC will increase. 
+Slow and steady is great, but we all enjoy the hyperbolic, frenzied mania even more.  ;-)
+I actually want the mania again if at all possible; I never asked for this boredom of being "excited" for 1% moves
+Slow and steady **and the top-performing asset.**
+Pretty much every timeframe from the 1m to the 1w is getting pretty tight — relatively speaking. 
+As always, great observations. Got my popcorn out.
+I'm counting on it. It's quite a funnel we've had going on here, and I have to expect one of these to happen: https://www.tradingview.com/x/BR1hquLt/
+Good call. Pretty much right on cue.
+BTC volume is really low, too. I see on GDAX we're barely at 7,000 in volume, compared to over 20,000 late last week.
+Look at GDAX losing its shit again.
+Jinxed her good 
+eth horizontal resistance saying not so fast bud
+IT'S THE FLIPPENING AGAIN
+edit: Contribution self-removed due to over-zealous moderation. 31 day ban for single use of a benign word with 10 upvotes of communities agreeance. Unlike the army of trolls who evade these bans I will not be contributing any further. Race to the bottom.
+You really think we're going to slow-build this time? Maybe.. Short time-frame lines have been getting pretty vertical, but not tall enough yet.
+on my chart (bitfinex) we're stroking it as we speak
+
+edit: hmmmmmmmmm
+I've got my line drawn the exact same way lol. Personally I think we are gonna test support of the symmetrical triangle (currently at 8900) one more time and then break upwards. I could be wrong obviously (actually I'm wrong most of the time).
+I have no idea what you just said. 
+> -my program keeps returning a NaN value equal to ⇒ ROFL102
+
+This wooshed a surprising number of people. 
+>NaN value equal to ⇒ ROFL102
+
+I'd be very interested to know what programing lang that is.
+
+A function that return strings with exponents on its exponents; I do not believe I've seen anything like it 
+What's the implied vol?
+What is special about this one (or im blind) is that all major corrections of bitcoin have always been in the form of descending wedges. this bull penant is clearly a symptom of having bottomed , i figure. 
+
+
+Well there are a few ones indeed around november
+good timing
+Look at ETH, it's gonna be up
+
+About to trade all my ETH to BTC for a quick scalp on the ratio
+Well if we pop upwards, we are only so limited on our movement until faced with the top of the symmetrical triangle @ $9,320. Which could break and be bullish. 
+
+Downwards we have an immense amount of room to fall until we reach to bottom of our triangle @ $8,886.
+
+A good R/R short could be a short from $9,300 ish with stops above $9350 ( to be safe ) if we get there 
+I believe 9.18sh is the peak.  200ma and bearish line about the meet.  Lets see if I am ryt 5 hrs l8r
+Thanks for the really thoughtful analysis. Off note:  The last 3D stoch crossover drop was facilitated by a critically timed FUD attack (something about Binance? Can’t remember). Sadly our fate may be in the hands of news-based sentiment at this critical juncture.
+This triangle will break violently, I'm on the sidelines waiting for it. Don't swim against whichever direction it goes after it breaks.
+Important, indicates demand for large volume trades, and reduces slippage risk for large players. Can only attract money in.
+Definitely not inconsequential.
+
+My gut says this will temper volatility, but it's not immediately clear how OTC trades actually get cleared & settled in the back office. Are they trading actual Bitcoins or contracts? How does transfer/delivery work?
+
+Conceivably an OTC buyer could take immediate delivery (if possible) and eventually dump on the exchanges (or post as collateral) for HFT ops. So many questions....... :|
+Old news is old
+All of the above.
+I'd say yes to all 3.
+
+All of the above, except 1, 2, and 3.
+It appears this level of price is not sustainable. Indicated by continued low volume.
+seems to have been pretty wavy lately. Goes crazy for a fews days then slowly comes to crawl then out of nowhere crazy again and repeat
+If seasonality is a thing that Bitcoin does, we should see a 20% + surge in price this month.
+Yup, feels extremely similar.
+Your tag says you are bearish but the vibes you are talking about are extremely bullish. I'm confused. 
+sadly, yes. It is quite ridiculous to assume we will see anywhere near the same pump, but I admit that I am very bullish right now. So far, this has been a good indicator to sell, but 9k is holding up like a boss. I haven't even been trading, and I'm so impressed with BTC to date
+Honestly? I'm getting the same vibes as back in January. Low-volume pumps on primary pairs (BTC & ETH) up against resistance, random no-name shitcoins & alts pumping 20%+ in a day for no reason. No real good news to speak of (but also, nothing bad either). Retail buyers still fairly diminished (confidence is mixed/low from earlier this year).
+
+BBands were tightening then and we all know what happened next--the bottom fell out.
+
+Frankly, I'm not that optimistic right now.
+I wasn't here in May of last year but looking at the charts... that would be awesome if this plays out the way it did last year, too.
+I get my vibes from market action and the chart looks a lot different this year.
+bulllish.. no buyers but no sellers either.. one big buyer could spike the price in this illiquid market.  Whereas a big seller can just go to the OTC market.  Missed my entry, goofing aroudn with alts.
+
+
+
+
+If I wasn't already maxed out I might have just fomoed in.
+
+If this crosses the pennant/triangle near where I marked the other day ([updated](https://imgur.com/9KJWAjv)), and tests or closes a candle outside of it, I think I might have to increase leverage.
+Sounds reasonable to me. I've got 8.4k as support in the 8k range. In case we had a daily candle closing below, I'd start getting a little worried. 
+Honestly shit coins is the best thing. Alts aren’t meant to be discussed here but every shitcoin got pumped to jesus when alts started to recover 
+Sounds pretty risky, if we drop below 8500 I think it would be smarter to sell than to start buying, not much support under 8500 if we break through that it will likely be a violent drop down to 7500.
+green, it will be
+Almost above red line, too. That's awesome. 
+[deleted]
+The equivalent wedge in eth is much more pronounced.
+
+I think btc doesn't really have any strong TA to follow at the moment, and so it gets dragged around by eth.
+
+If btc and eth follow each other, and eth's charts are easier to read and it has more volatility, it makes me wonder why anyone is trading btc at the moment.
+
+I'm trading on macro movements in the whole cryptocurrency market, so I don't really care which particular cryptocurrency I use. They're all very correlated except for the tiny market cap ones.
+Feels like now we are painting a larger wedge, which could apex right at the resistance of the larger pennant/symmetrical triangle.  (though it's only just now retesting the support-turned-potential-resistance of prev wedge)
+What is a DCA?
+I've DCA'd my position down to 9115 (June futures), so I am watching this closely. Does seem to be coiling: https://www.tradingview.com/x/kYAo8oO2/
+What conditions signify that if it's denied here we would have a major downside vs a pull back? This is one part of my TA I am missing badly. Knowing when a major dump is incoming vs a pullback.   
+Its nice when people post a chart with lines on it to support their case ;)
+Link: https://www.tradingview.com/u/PentarhUdi/
+
+Don't know his story. Sorry.
+When price continues to push against a resistance line and doesn't dump hard when rejected, it's generally an indicator that the line will break... in any case, we're above $9100 now.  Hope you kept your position open! 
+Isn't that an ascending triangle which has a bullish bias?
+
+Edit: Just broke up. Or at least, is trying to.
+Same as you. Seems a bad decision until now.
+We're making higher lows but also lower highs, depending on timeframe. That's a symmetrical triangle forming of sorts. Will be forced to resolve by next week if it doesn't before that. 
+
+edit to add visuals: https://www.tradingview.com/x/WMiJaPgh/
+For your top chart, I wouldnt cut off the wicks on the bottom
+
+Should look more like this 
+
+https://www.tradingview.com/x/SSJdAYAM/
+
+Otherwise you have the right idea!
+
+Best of luck 
+This is clearly a no trade zone. Bull or bear, smart play stays out of this.
+I have two more limit orders to hit on the way to 8900, the support of the symmetrical triangle. If we go below that, well I consider adding a stop because this could get ugly. That being said the 8800 range has tested as solid support recently which is what I'm banking on to hold this bastard up for a few more days hopefully. 
+
+Either way we've consolidated here for a while now, a move is imminent. 
+> This is pretty much un-tradable right now unless you have a long entry from 87-8900 or a short entry from above 9500.
+
+5min RSI buy at 20 (wait for the second spike sometimes) sell at 70 for like the past week
+> The next 30 minutes are going to be so juicy
+
+You could even say they are... **c r i t i c a l**
+I've drawn and re-drawn those lines, and still can't decide if it's just an ascending channel, or an actual rising wedge.
+
+EDIT: Either way, we've either gotta shit or get off the pot soon with that descending resistance from 9565.
+The last couple of times the btc market was trading in the $9,000s, BTC was also "in the process of slowly dying." 
+
+I find it very very unlikely that we're witnessing a sudden flippening and investors are rushing away from btc into alts. 
+
+Instead, I tend to think of increased interest in alts as an increased interest in crypto in general — which includes btc. 
+
+Alts aren't pumping because investors have "seen the light" and are moving away from btc. Alts are pumping because there's renewed interest in the crypto space. Quite likely sparked by the fact that bitcoin — the undisputed crypto market leader — appears to be rising from the ashes.
+
+EDIT: I'd liken the correlation between BTC and alts to the correlation between interest in obscure olympic sports and more established events every 4 years. People tune in to watch swimming and the 100m dash. But while they're there, they might check out a badminton match or two. 
+just to clarify - are you saying BTC is inflated currently because people are using it to buy alts?
+Good work. I'm finally back in the green on my long, which feels amazing. I'm hoping we get one more push up so I can comfortably set stops. Haven't charted personally this morning, but it's looking promising. 
+There is no actual lending of btc. https://www.bitmex.com/app/perpetualContractsGuide#Funding
+also, check https://www.bitmex.com/app/fundingHistory 
+
+use SUM(x) function on column in excel, and let us know what the netto-funding rate was for the last 30 days; this is mostly of interest to you, but feel free to share
+Alt traders kept getting stung by btc dipping all too often this last week may of had something to do with it.
+Just stupidly / accidentally stopped myself out at about BE not paying attention to what I was doing with stops. Hoping for the dip you're also looking for.
+I agree. I saw a post here earlier that had me feeling very bullish. 
+
+
+
+https://www.tradingview.com/x/1v4VlMJj/
+
+
+This is their chart.
+Fellow noob trader - whats been working for me when im well in the green is to move my stop up just below the  broken resistance / new found support... Too many times ive seen profit lost because i got greedy. If we break support and my position closes in profit then all i do is find another long entry point from there.. I lock in profits and it gives me a chance to reassess the market... I trade longer time frames so im not glued to the charts 24/7
+Set stop at break even, and let it ride.
+
+take some off at the upper boundary of the pennant at ~9.3k
+
+if you see a short-term reversal just take some off to lock in some profits. 
+
+All good advice here. I might add when you set your stops factor in your fees if any, a lot of people underestimate how quickly they can eat into your profit margin. Do limit orders as much as possible.
+Keep it for next 6 months and you are sure you make profit
+For a n00b trader, that’s a great entry 
+Set stops at break-even or simply decide to hold otherwise 
+read an article it was gonna hit 150k by end of this year, so if 1500% yearly gains is good enough for your portfolio just hodl.  Dude had a chart with lines and everything.  So it must be true.
+
+
+If you have to ask, you should sell and be happy you made something.
+
+Can't be asking others for advice because it's your position and only you are responsible for your trades.
+I'm not a conspiracy person, but hey, at least this one is intriguing. 
+It's less than 10 BTC tho right?
+That's just arbitrage bots at work
+How are you defining reset?
+So what is the best indicator for you then?? 
+There’s also a massive hidden bear div on the 1d.  From both local tops of 17k and 11.6k. 
+Yep. if it stays above the 9K for 24 hours it will.
+the mere idea that BTC @100k makes the remaining MtGox coins /Mark Karpeles net-worth $16B is cringe-worthy.
+eh, seems to be no shortages of fresh fish wanting to lose their shirts betting in either direction. 
+why?  means new money coming in doesnt it?
+
+Time for a noob DCA series if the 1 week BBands keep tightening.
+There's still plennnttty of room on the 1w for further consolidation, although it's quite possible the market won't allow for that.
+Feeling like an on the hour thing is coming?
+Terrible volume how are they leading 
+leading the poopage? or the bounce-age? or the innocent into the pits of hell?
+I'm glad someone else noticed that too, when Okex is leading the volume on a pump the price action is very weird, I'm very suspicious
+> Volume: As the symmetrical triangle extends and the trading range contracts, volume should start to diminish. This refers to the quiet before the storm, or the tightening consolidation before the breakout.
+
+http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:chart_patterns:symmetrical_triangle_continuation
+[deleted]
+[removed]
+Where do you see the cme premium?
+[removed]
+[removed]
+[removed]
+This is a good indicator for BGC if all are true:
+
+* in a local bottom
+* RSI oversold on all timeframes
+* shorts greater than longs
+* people still opening shorts
+
+We are basically neutral on all those points, so I don't expect anything drastic.
+Nice dude what did you have for breakfast?
+Awesome! (...)
+on-chain payments are always like that.  I'm not sure how BCH proponents can champion on-chain tx as being fast.
+It is my impression that the folks at GDAX are those that value the security of their deposits, and are apt to step out into fiat quickly. I don't like the exchange at GDAX, but I use it because I am cautious and I still view tether as a potential timebomb, enough that my risk aversion kicks in and I choose GDAX over mex FWIW. That sentiment may be disproportionately represented there, but my suggestion is only anecdotally speculative. 
+bots are gonna arbitrage the difference so it doesnt matter. plus gdax is pretty low liquidity for btc.
+Order book depth on GDAX is laughable. 
+It's Victor.
+These dumps are incredibly weak.  Takes twice as much volume to move the price down as up.  Literally.  2x.  
+
+If these guys have enough coins to drop it 200 bucks I'll be surprised.  
+Please use the alt thread.
+
+https://www.reddit.com/r/BitcoinMarkets/comments/8gelvd/altcoin_discussion_wednesday_may_02_2018/
+The movement today is being pushed by Ethereum, not Bitcoin.  Bitcoin's along for the ride.  Overall crypto market cap is approaching some very significant levels.  ~$470B from March 5, ~$520B from mid February.  We're hovering around $456.5B right now, so the March 5 high is definitely within striking range.  If we broke the $520B high from February I'd say we're actually back into a bull market.
+Looks like the RSI is in overbought territory 
+‘Adam and Eve’ is usually considered a trend reversal pattern. And we’re still in a short/medium term uptrend in my opinion. 
+
+It will  - 9500 - matter of time. next days / a week. Then the road is clear to see 10K and more.
+
+You do realize all the big boys use OTC...right?  
+
+Circle specifically makes money on spread so they get a locked rate and circle (the largest US certified OTC) spreads the buys over months playing the market like a flute to get a good spread.
+
+People say there is a whale bot or hidden walls or various other devious actors - its almost all Circle just getting their fee.  They work with every exchange they can (legally) and do $2 Billion a month in volume.
+Institutions likely aren’t bothering with any of this bs if they’re going to “load up”. They’ll do it OTC. If they’re on exchanges I’d say it’s more likely they’re there to MM or suppress the price. 
+
+FWIW, I don’t really buy the institutions/smart money accumulating rn anyways. 
+Yeah isn't Gdax the main institutional on board especially for US people? 
+Damn. What happened to GDAX...
+
+During the bull run there was nothing like watching GDAX charts.. 
+
+The whales there were more than outstanding to Watch 
+Kimchi KRW premium appears to be $100 over finex right now.
+
+edit: https://imgur.com/GFhIQkP
+This post is retarded. Their hasn’t been much of a kimchi premium over 1-3% for months that doesn’t matter right now at all. In fact when kimchi is minus it’s bullish as fuck. It has meant a bottom is in. Right now the percent difference is neutral and doesn’t mean jack. I assume your short and are upset that we are going up on “muh low volume” “muh bitfinex’d” reeeeee
+This community hates fun
+If you had just posted a funny meme in a funny way, you would probably be upvoted. I've posted several shitpost memes that have been well-received.
+I'm not perfect at charting, so correct me if I'm wrong but you appear to of cut the wick and started it from the wrong candle?
+
+Unless doing that is ok?
+I am following something similar (my top is at wick top @20k), looking at previous bitcoin bubbles and also the generic bubble cycle, i think this medium term bull run is kind of "return to normal" before another leg down. History does not repeat but usually rhymes, please check previous bubble’s chart and other market’s behavior after speculative bubbles popped. 
+
+So far we retraced about 68%, statistically there is some room down to at least 75%; current bull trend started following a huge short squeeze and most of the BGDs we have seen are due to huge market buys within an illiquid market (and further short squeezes); volumes are still low and interest, outside reddit, is nowhere near the same during similar price levels in November; no wedge on the 1D significantly broke up since the beginning of the bear market, and the one we have been in the last 15 days does not look good; To say the BM is over i think we should keep rising with prices (above previous ath at@11800), see an increase in volumes, see an increase in people's interest. Let’ see what happens in the next 48hrs, I think we are already overdue for a more serious movement.
+
+...and the Lord saw the blessed dildo of God, and saw that it was good.
+Hourly BBand wasn't too far above the 15 min and we're dealing with that now/sitting just above it. Also dealing with a high volume node per VPVR now.
+
+The next couple $100 moves are *probably* going to be a slog.
+Weekly BBands get tight. Traders lose interest because of low volatility. Great time to DCA in with the smart money. There aren't as many middle men around to try and scalp your buys.
+nothing to talk about, price continually makes higher lows and lower highs 
+
+could bust up here soon though ya never know 
+Less interest in Bitcoin and even less in the "quality' of this sub.
+Suspected it might be that three days ago a even did a [trade setup](https://www.reddit.com/r/BitcoinMarkets/comments/8fhion/daily_discussion_saturday_april_28_2018/dy59rxc/) for it.
+
+[Yesterdays Chart](https://www.tradingview.com/x/hY8mQOm5/)
+
+It is also my current bullish case [posted yesterday](https://www.reddit.com/r/BitcoinMarkets/comments/8g5owl/daily_discussion_tuesday_may_01_2018/dy9i1b8/) which sums my views up on both sides. There is not much more to update so far so it is all still pretty valid.
+
+Edit: Fixed Yesterdays Chart link, was linking incorrectly to an older chart.
+Yes, but unless you're also increasing the amount you add each time (exponential growth), that's a train that will run out of track quickly. 
+
+Example: Open 10x long $1000 contracts at $9K and add $1K contracts every $100 drop. You'll run out of track at $7500. You won't be able to add at $7400 because you'll get liquidated between 7400 and 7500.  
+https://imgur.com/kDitB3X
+Depends on the exchange you're using.
+If you're margin trading on a platform, you may want to do a deep dive in to their FAQ and read how their engine works.
+
+you don't have to add to avoid liquidation. you can keep the same position size and entry price. you can add to your margin balance to increase your collateral value which lowers liquidation price... or you can add to your long to lower the entry price and increase the size of the long
+Why? What was it about?
+You might want to move that up a couple hundred bucks.  Dumps are looking feeble these days.  "Buying the dip" seems to be buying when it goes down a hundred bucks lately.  
+There's still time for that in the symmetric triangle many are watching, and that would be the next lower target in it.  Though if it happens we'll probably be well in the breakout zone by then so I'd be less confident that it ultimately breaks up.
+Not seeing it.
+My alt watchlist has been largely positive against BTC for the past 24 hours. I'm not seeing it either.
+A bold prediction would be saying that across a much narrower time frame ;D
+Why do you think that the S&P would rally hard?
+Its already in a 10 year uptrend and has doubled since 2013.
+
+Looking at the long term chart a correction has already set in, and a little cool off would be pretty healthy. If it really goes on a rally like you predict the correction afterwards could be the worst we all ever saw.
+Yeah uh-huh. Where did you buy your crystal ball? 
+edit: Contribution self-removed due to over-zealous moderation. 31 day ban for single use of a benign word with 10 upvotes of communities agreeance. Unlike the army of trolls who evade these bans I will not be contributing any further. Race to the bottom.
+I'd just like to warn everyone the chart does not disappoint when viewed via 3d glasses.
+The charts might have activated some long dormant residual lsd from my earlier years....  
+So, basically a 50-50.
+difficult chart to watch / check.... a bit mess. 
+Ya, he was also calling for like $1500 ltc a month or two ago. Grain of salt and all that. Although imo LTC does look primed for some sizable action - on the ratio and usd. 
+That really hasn't been the case historically, they have their biggest moves when BTC is stable.
+I'm sorry but the very essence of trading is making all sorts of "what if" scenarios and preparing accordingly. 
+"I kindly ask people not to post about adam and eve double bottom again. It won't happen"
+
+So... you are The Post Leader / CEO here???
+Eve and Adam is still on the table tho, right?
+i predict a quadruple bottom
+https://imgur.com/a/gReCplG
+
+[removed]
+[removed]
+[removed]
+I would assume so. 
+
+They're certainly not at historic tightness by any stretch of the imagination, but the 1h is the most compressed it's been since the Big Green Candle.
+Absolutely. 
+
+Even I've started setting actual stops, and I loathe doing that.
+clean your PC man... it's probably all the dust 
+https://blog.bitmex.com/bitmex-technology-scaling-part-1/
+Glad you appreciate my commentary! 
+
+I try to remain as detached and level-headed as possible.
+youtuber might be a full-time job
+I agree that it's butt fugly, and I don't think anybody should pay much attention to it. 
+
+I specifically called it out in my edit because I knew plenty of folks would see the chart and think, "sweet mother of God, that looks like an inverse head and shoulders."
+Reminds me a lot of this one on the 4h from back in the $7,800 to $8,400 range:
+
+https://imgur.com/a/agfccl1
+
+Which was a big ole nothing burger. 
+
+In general, H&S patterns haven't been super reliable in the current market.
+The one from 7800-8400 like chewy stated fooled us all. 
+
+We thought we had confirmation of a broken neckline and we were going to the pits of hell, but it would up bouncing off the very bottom of the neckline to shoot to 9.7k 
+
+Trading it if you were short would have gotten you rekt 
+well, if the slow and steady has an upward bias, and there aren't any big dips, it will inevitably go parabolic again, then slam down hard again and the volatility will be back.
+In other words, you expect it to either go up, or down. 
+On my chart, the rising wedge just broke through.
+
+The same for you? 
+
+edit:  https://www.tradingview.com/x/WqR8zj2A/
+Eh, looks like that could've just been a fakeout right back into the bands.
+Big move incoming. I feel it in my nether regions
+Everywhere is losing it's shit it seems right now. Was watching binance and one minute candle closed above 9.29k and the next opened down at 9.24k.
+
+Edit: was just a visual bug. Still, some crazy shit going on.
+GDAX has been going mental this week in mega bear mode.
+> Short time-frame lines have been getting pretty vertical, but not tall enough yet.
+
+Not really sure what you're saying here
+Illiquidity on GDAX is ridiculous. 
+I feel like I need to get ready to read 8 wikipedia articles every time he decides to put a modicum of effort into a comment. Dude's knowledge is on another level, the kinda guy that makes smart people feel dumb lol
+Which possibly answers the implicit question of who’s buying these contracts..  
+
+The TL;DR is that buying the contract (which you’re not able to short) is literally the same as buying a $50 scratch-off for the chance to win a max prize of a thousand bucks.  
+No clue what the current price is, but probably by this point it’s likely somewhere around ~110% IV ± ε 
+
+Thats a good point. I'm def not shorting this, although we'll probably drop some amount overnight to make a higher low on the 4h again.
+
+I'm leaning towards the large triangle to break upwards, so i'll be adding to my longs on the dips to DCA down as ya do.
+We'll definitely retrofit a fud news event if there is a drop, that much is certain. 
+I enter positions before the moves happens. If i get stopped out, sucks. But if we explode upwards, not sucks.
+> Important, indicates demand for large volume trades, and reduces slippage risk for large players. Can only attract money in.
+
+This is 100% the correct answer. Coinbase is already wildly profitable. Back in summer 2017, they were valued at $1.6 billion. During the Earn.com acquisition in April 2018, they were valued at $8 billion. ([Source](https://www.recode.net/2018/4/27/17287184/coinbase-earn-acquisition-stock-valuation-eight-billion-earn).) This means there's serious demand for OTC block trading.
+
+OTC operations are very capital intensive as you are not just bolting on a new division. You are building large back offices while expanding risk management, client facing teams and dedicated communications teams, etc. I'm guessing the demand is being driven by exotic trading desks at banks, hedge funds and some of the more aggressive opportunistic funds. Servicing these clients also brings on unseen costs like more paying higher fees for more thorough audits and real time data from Big 4 accounting firms, etc.
+That makes sense.
+
+Do you think it'll have any adverse effects? For example, some actors who prefer the market to be as volatile as it is? \(as I type this I realise that very few investors probably want the market to be as volatile as it is, so maybe that's a redundant question\)
+This article talks much more about their operation than anything I saw previously. Do you have links to the old news?
+Why would short term low volume suggest the price isn't sustainable?
+You're right. It's not sustainable. It's going up.
+
+And anyway, volume is still $6-7 billion a day which is not low unless you've only been in the game for a few months.
+Same was said at 6.5 and mid 7s. Volume was abysmal and we were squeezed up. It's the chicken or the egg conundrum. Often time a dildo spikes volume and not the other way around. 
+We've already seen a 30+ % surge since the 6600 low in April.
+Maybe he forgot to change it lol. I've done that.
+I don't know why but 10k is the line for me for a long time. I'm bullish but a bit sceptical right now. Gonna be full time bull when we break and hold 10k.
+
+Have a feeling that if we won't conquer 10k soon then we gonna go hard down.
+Why "sadly"? Aren't you a fellow bulltard too?
+No way. Completely different from January. Weak hands gone, drifting gently upward between every big candle in either direction. It is actually eerily similar to last May now that I think about it. So if that plays out, we double a couple of times between now and early September. 
+ No good news to speak of?  Your ignoring lots of good news to fit your narrative. Retail investor is not even here yet. The ones that came in the fall were primarily college kids. Average Joe in the US does not have any crypto. You can give TA reasons, but fundamentals are getting more bullish by the week.
+It probably won't play out like last year this year... next year though... or maybe 2020. Now is the time for patient accumulation.
+Big buyers don't buy up the price at once. Usually they accumulate slowly over time to keep their cost basis down. Unless some huge bullish news came out. 
+thats actually kinda my thinking. i feel a lot of people are looking at 8400-8500 and will shit themselves if it breaks.
+
+i dont understand why though. breaking below 8400 would still give us loads of room to consolidate before going up again. 
+
+for me breaking below 7000-6700 will be worrisome at most.
+8500? How about we breach 9000 first.
+As long as we try to stay ahead of that red line, I'll be happy.
+lol you turned a south asian name into an anglo one. 
+
+
+Sheba Jafari! Anyway she has been quiet.
+It's almost channel-esque now. I'm not entirely sure what to make of it: https://www.tradingview.com/x/G7fpFm8o/
+
+I ended up reducing my position by 25% and scaling back to 5x at 9150 before the breakdown (9130 CA). I put in buys for the remainder at 9060, 8990, and 8940. Only 9060 executed, and only pulled by CA down to 9115, but it's a start. I'll happily add the others back in over 9300 if we break up. 
+Dollar Cost Average
+You've got a decent breakeven spot if this bounces off the line a final time. 
+
+If it breaks below $9,000 again, I really don't see a scenario where my own position isn't stopped out at $8,770.
+A lower local low below $9,000 would be a bit concerning. 
+
+This isn't a situation where you'd want to short the rejection though, as there is still $8,800 and $8,640 that could serve as support zones.
+
+If anything you'd want to short right here and now with stops above $9,160 or so. That's the strongest move from a risk/reward sense. I wouldn't take that approach myself though.
+PentarhUdi aka masterluc on BCT is an eastern european trader known for his accuracy in TA + makes a lot of use of EW.
+
+Following him for about 5 years. I think his macro perspective is right more often than not. I guess he's famous because he was spot on for some bottoms and tops in the recent years. The shorter the time frame the more fuzzy his predictions become.
+
+Edit: He once left the community after making a catastrophic prediction. After one year or so he came back.
+
+tl:dr; he's not infallible. his macro/long term perspective > short and mid term perspective.
+Thanks!
+Thanks for the explanation! I hope so too.. because I didn't.. :(((((
+welp :) 
+It is
+Maybe I have it drawn too tight, but mine can only support about 2 days before we make a move, and the symmetric triangle resolution would be expected to start playing out within 12 hours or so  https://imgur.com/pkYFIp0  (there's a descending triangle version overlayed on that too, which is based on our 8800 support, which could support a later breakdown)
+ahh thanks I missed that 
+I’m learning there will always be another opportunity, you don’t have to trade every move.
+
+Feels very safe to stay out of position right now. 
+
+Are you still long from 7,800$? Don’t remember if you closed or not 
+For as tight as Bbands were / are, I was expecting more of a shoot in either direction. 
+
+We keep bouncing off 8800 like it’s our job, but our bounces are pure weak sauce. If it falls, Ide probably bail on your long if 8800 falls or 8750 breaks. 
+
+8900 is a great entry for a long 
+But you’re talking about a what? 30-50$ price movement? With fees and such it’s not worth the scalp. 
+
+Ide rather wait for a real move then risk getting stuck with an underwater position because I was trading 5Min RSI 
+> Quite likely sparked by the fact that bitcoin — the undisputed crypto market leader — appears to be rising from the ashes.
+
+I respect you very much as a trader but I should say I don't quite see it that way. If it was really BTC rising from the ashes, well, people would just swarm into BTC itself and we would see it going over 50% market share. My opinion is that alts losing too much value against BTC gave market makers an opportunity for pumping them and creating liquidity while exiting the markets, as is often the case. I can support this with the fact that in the past after virtually every alt season BTC price went down.
+I think he's trying to make *some* of the same observations that you're making just with different conclusions. On the last rise up to 11.8k, Alts remained relatively stagnant while BTC rose, which could be indicative of a lack of investor confidence. This rise is very different in that respect.
+
+And, as moving alt->fiat generally entails selling BTC (and vice versa), people looking to buy alts has a positive effect on BTC and people selling alts a negative effect.
+
+If you view the alt and BTC markets as separate within the cryptosphere other than that link, you could view 11.8k as the beginning of the BTC market recovery. But alts still weren't done crashing, and when they took another leg down they dragged BTC back down with them (BTC dom < 50% so a general market move in alts can *certainly* impact BTC quite a lot). You could then view this recovery as alts and BTC both recovering in unison.
+
+That's obviously a pretty simplistic view, but I think there's a decent argument to be made there and I've had an idea ping ponging around in my head for an indicator to backtest that theory. Maybe it's more apt for the alt discussion.
+"They come for the Bitcoin, but stay for the altcoins" - Carter Thomas
+You can attribute alt pumps due to boredom as well. Greed is limitless and the money will flow to whatever is moving.
+>Instead, I tend to think of increased interest in alts as an increased interest in crypto in general — which includes btc
+
+BTC of course also profits from more interest in alts. But was there more interest in BTC or alts? I mean no offense but as someone with a cold storage of BTC this sounds a little biased and with /r/bitcoinmarkets being the most objective subreddit I have seen yet regarding crypto, it is still biased towards BTC.
+
+I'm not here to argue about the fundamentals of Bitcoin. I lack the technical insight to do that. What I can do however is provide my opinion on the market, which I think of as being relatively unbiased because I'm still skeptic of the whole crypto space and don't hold anything.
+
+BTC of course is the most liquid cryptocurrency there is. That means alts are pumping of course more, due to not being as liquid (POS would  be the best example for liquidity reduction) which creates the illusion that there are more "investors" (read: gamblers) involved.  
+
+But that's not all there is. BTC dominance is slowly going down and especially /r/cryptocurrency is pushing the anti-BTC narrative. BCH pushes that of course too. But alts almost always pump together and if 100 currencies pump together against one, of course dominance goes down faster. This pushes the narrative even more together with relatively slow transactions.
+
+Now I'm not arguing that BTC didn't recover on it's own but alt propaganda is definitely pushing some investors towards other projects which adds demand for BTC. I don't expect the flippening  to happen  today or tomorrow either. But interest in alts did go up significantly and arguing that
+
+>  bitcoin — the undisputed crypto market leader — appears to be rising from the ashes.
+
+is the reason alts are pumping isn't the truth either, considering alts often pump when BTC consolidates. They also pumped when BTC was consolidating around 6.7k. With the low volume we are experiencing since we dropped to 6.4k low interest in BTC is another possible way to interpret the market as is saying there are a lot of people on the sideline. It bends to your own narrative. In a downtrend BTC just assumes its position as a market leader. I think given enough consolidation alts will start running on their own.  
+
+So while the flippening is not a possibility right now we could be in the process. As you said yourself about TA: It works until it doesn't.
+
+I hope I wasn't being impolite. 
+
+
+
+
+
+
+
+I mean who doesn't like a good shuttlecock action?
+Well, that's basically how I see it.
+Thanks and good job on that long. 
+
+I think we broke out of that downtrend line but I'm not 100% sure as I drew it like [this](https://www.tradingview.com/x/upKSEopR/) but I could have drawn it [like this also](https://www.tradingview.com/x/JLfFvkXR/) without cutting that wick. 
+
+I'm currently out of position (got stopped at 9200) but I'm hesitant on going on a long with a target of 9350.
+Nice resolve.
+
+I chickened out and ended up with a decent sized loss, my worst loss in months.  When I had opened that position I originally had told myself I would add to it lower.  But by the time we started heading down I had already added and was at 80% and 5x, so there wasn't really any breathing room left to add without risking wreckage.
+
+Disappointed in myself that I didn't take warning signs to stop it at BE earlier, when there was a clear descending triangle telling me to close that ended up playing out.
+
+Oh well, got a decent 8950 position now (which I also payed for a little bit by getting chopped up at our recent bottom).  But most of the potential profits on this will go back to that previous loss.  Still pissed off about it.
+Inability to push past 9.2 worries me a bit. This may drop again
+Right, this is how clueless I am. I only know there is way to achieve a similar thing as BTC lending on Bitfinex, and I would like to understand the mechanics of it.
+ah that sucks mate. I've done that too many fucking times lol...
+
+If this symmetrical triangle plays out overnight (EST), we should see 8900 briefly before going back up. Before I go to bed i'll set some limit orders on the way down, with stops somewhere around 8600-8800. 
+Well, a 5%-9% move for bitcoin is certainly not something unheard off. Alts are losing steam but they have no fallen, and in that market cycle that usually means its bitcoin time.
+> are sure you make profit
+
+famous last words
+If you think you're sure of anything in crypto, you're being foolish.
+Agreed. And hey, there's also at least some form of data to back it up. Plus remember a few days ago when the dump from 9.7 went below 9 for the first time and GDAX had like a $300 discount?
+
+Not going to trade off it but also not going to lie and say I'm not on the lookout for another round of Tether FUD. Wary of insider trading... On the flip side, could just be one random dude with a lot of money cashing out gains. Gap seems to be getting arbitraged back to relatively normal levels.
+I've seen some very uncharacteristically large sells on GDAX tonight, 70 BTC being the largest.
+1300 btc market bought on finex in last 2 hours 1200 btc market sold on Gdax in last 2 hours at time of photo 
+If it was arbitrage they'd be buying GDAX and selling BFX.
+It dropped from an overbought 70 to a more neutral 55. 
+
+50 is generally considered completely neutral, as it's the midway point between overbought at 70 and oversold at 30.
+edited, sorry meant to say stoch rsi. 
+Rainbow charts are the best indicator
+But if you view the daily price action right now it's just chop, and you really shouldn't be looking for a div without both candles you're comparing being clear local highs/lows. If we continue up here and make a higher high, the hidden bear div currently there would just be invalidated. It's better to wait for 8.6k to break before really putting much stock in it.
+
+It's the same issue with the bull divs I mentioned - the local lows I'm comparing to aren't quite as well defined (as I mentioned).
+
+Not saying I'm ignoring that hidden bear div, just that I'm not putting much stock in it at this point until lower low is made.
+If the price goes up over the next few months that will be super bullish
+No point in concerning yourself with another man's wealth.
+noobs normally don't short. they are not prepared to short an asset they newly discovered.
+
+sorry guys, throughout bitcoin history this is one of the most reliable indicators.
+Some people like to gatekeep. Noobs asking questions makes them feel superior. We all started somewhere.
+When the average joe hops on a trend, it's often been a good indicator that the trend is coming to an end. 
+
+Anecdotally, I'm sure you saw this in play during the rally from $3,000 to $20,000. 
+
+There probably wasn't a whole lot of water cooler talk about bitcoin when it was trading in the $5,000s. Probably not in the $10,000s either.
+
+But when it was in the $15,000s? You'd better believe everybody and their mother was suddenly calling their tech-savvy friends and family to see if they knew how to buy bitcoin. 
+
+The same was true during the downtrend. 
+
+"how to short bitcoin" was a popular search term in the $7,000 to $6,000 range...but nobody had any interest in shorting bitcoin when it was on fire between $15,000 and $20,000.
+No matter what happens, people will always use it to support their own view
+T-minue 4 minutes and counting.
+No. these are definitely going to take time to come in (as /u/_chewtoy_ says).  But they're definitely to watch.
+Gdax has been bearish today. Led the dump 5 min ago and is $50 lower than Bitfinex
+performance of the triangle is worse as it comes to the vertex too, though. I think it's more likely to result in a fakeout as well 
+This is what I'm seeing: https://imgur.com/a/kPXOi71
+
+Borrowing tens of millions at a 50% APR... what could possibly go wrong?
+[removed]
+[removed]
+[removed]
+[removed]
+Can anyone build a BGD indicator? That would be handy.
+'RSI oversold on all timeframes'?
+Ok, maybe to 9400-9500, then ?
+i had a sausage mcmuffin from mcdonalds, it was good, i'm going to get another one tomorrow morning.
+GDAX also FDIC insures your fiat up to $250k. (This is a big plus for me)
+You just described me.
+Starting to look like the opposite of $6.5-7k. Sellers patient af, thick ass order book upwards, buyers trying to catch the pump but bid side is thin as hell 
+Nah overbought is 80 and above 
+Good point. I didn't take that into consideration.
+So, assuming OTC buyers won't be paying over current spot price, price has only one way to go (down) if Circle wants to earn on their spreads (?).
+lol what a tool, thinking that fucking goldman sachs is gonna go through a shit sketchy exchange on the open market to accumulate BTC
+Why do people think there is an endless otc supply that would never impact over all market liquidity 
+I always wonder why they (Goldman etc.) would want to be on the receiving end of an unregulated and highly manipulated market.
+They only join if they are the ones doing the manipulation/have an advantage.
+[deleted]
+yeah, but by January it seemed to only be useful for noobs to send their $400/coin LTC holdings to Binance at zero cost so they could chase XRP, TRX, etc.
+“Is all this fun even sustainable? 100x short on fun”
+unfortunately there's a very thin line between allowing memes and letting this place turn into /r/ethtrader and /r/cryptocurrency. 
+
+
+Yeah, I noticed.  I would too if I were always stressing about some leveraged position.  When I do a lev trade it's just for fun.  Some of these dudes are biting their fingernails constantly.  God love 'em, but I couldn't do it, personally.
+Just the mod
+Could be that some of us are here to make profits and not to play games like dumb little children.
+OK, I'll try it next time... not that I care about upvotes. :D
+Re: your points:
+
+1\) Cutting wicks is usually not ok but the dip yesterday turned out to be a fake\-out on low volume. If you look at it in the 4h chart you realize that it can be neglected because not a single 4h candle closed below the trendline and volume on the wick was low. So there is a reason I cut that specific wick.
+
+2\) With "started from the wrong candle" you probably refer to the starting point in December. Yes, that's why I wrote "at least Jan 7, 2018, maybe even as far back as Dec 19, 2017". As you can see, I have my main \(solid red\) downtrend line starting "from the right candle". It just caught my eye today that extending the current falling trendline from Jan 7, 2018 back into December points consistently at the closing/opening prices of the ATH days Dec 16\-19. Given that the bull run had run out of steam back then already and volume was relatively low compared to the previous and following periods, you could make the argument that closing prices are relevant. However, as I stated originally already, a weak argument...
+Thanks for the tip my nigga
+Word
+What? It's just a boring day, price wise. If the price was going up or down there'd be a lot more activity. 
+At work but thanks for this will read later 
+Congratz on the short, nice call! 
+It would seem that if you are going to add margin anyway, you may as well just make the position larger and get a better CA and more overall profit potential.
+
+Though I have found myself in a situation where I did only add to margin.
+He had 35 hours of video content on how to trade crypto. He claimed it would always be free, but then he all of a sudden deleted it.
+Well, I must admit that you were right... one of the few, it seems.
+Never underestimate the irrationality if the big bears. These guys have a lot of money to waste, and I'm just gonna let them give me a discount, even if I have to wait a couple weeks.
+Yeah I'd say it really depends on this last leg in the pennant. 
+
+If we can make it up to the upper resistance of the pennant, I'd say it's pretty good r/r to add a little in the lower half of the pennant (in case we get a small rejection) with a s/l a couple of percent below lower boundary. 
+
+If we get rejected by the SMA here I'd wait out to see if the pennant holds. 
+
+Currently I'm on hand sitting mode. 
+My Zimbabwean $ and Venezuelan Bolivar bags have been largely positive against the USD ...
+It's full of ~~stars~~ colours!
+So what you're saying is... I should charge for my charts! Hold on, FBI at the door...
+Yeah, I think he's selling his "reports" for like $30 a pop and they are literally just him pumping the crap out of coins.
+[deleted]
+[removed]
+I'm watching 15m, they're within $60, don't think I saw them as tight for longer than couple candles.
+The trouble is I'm having a heck of a time deciding where to put them. I've held this position for a number of days (originally 9320), and have successfully lowered my DCA by reducing in slight profit and adding on dips. Holding into the 88xx range when it was at 9230 was not the wisest move, but it worked out. I reduced in profit this morning and have more adds below (9040 and 8980).
+
+Another break below 9K spells trouble, but there's room in our larger wedge for that. If 8900 falls, I'd definitely want to be out of position, but that's a pretty deep market stop off 9115. 9K feels too shallow, though.
+
+Maybe I'm just married to this position.  
+what happens if you just get liquidated? total rape?
+
+Dust dust, binance dust, dUSDT dust, or de__dust? De__dust2?
+With how level headed he is though he could easily be the next datadash but strictly with bitcoin trading. Might be worth it. 
+Can confirm, got rekt.
+Violently so, is the point. 
+I have the market bouncing right off of support (for now anyway):
+
+https://imgur.com/a/SWxy1Ca
+Just keep redrawing it?
+Broke through for me as well. But, surprised at the lack of dip.
+Eh, didn't really have that as a wedge. Far from a definitive break so far, but it's early. I'm hoping the 9K (+/- 1%) range holds, though. 
+Yeah true, it's definitely starting to look that way.
+No volume will go down forever 
+I'm starting to think there's some truth to the dude that said someone is dumping USDT to USD via Bitfinex>GDAX. 
+The books are moon-juiced but the squeeze left a lot of pulp in the train, which is taking off on the tracks, currently going about 30mph.
+Just one of the things you don't see only looking at long-term trends. It seems during one week recently there are higher percentage jumps than weeks in the past. We should expect this I guess, just stating an observation. Can't say whether it bodes up or down.
+So i've heard. Glad i'm trading on bitmex, or should i say overloadmex... I brought my stop up to 9200, it looks like we won't be making it out of the pennant on this try so i'll consider re-opening a long tomorrow. 
+edit: Contribution self-removed due to over-zealous moderation. 31 day ban for single use of a benign word with 10 upvotes of communities agreeance. Unlike the army of trolls who evade these bans I will not be contributing any further. Race to the bottom.
+Gotcha. 
+So essentially gambling - without officially being classified as such. Interesting.
+I don't think there is much chance of winning a thousand bucks.
+
+The settlement is 
+
+>0.1 XBT * MAX( 0 , (.BXBT30M - Strike) / .BXBT30M )
+
+So if the market price doesnt meet the strike price, it cashes out at 0, since '.BXBT30M - Strike' will be less than 0.
+
+If the market price is at or over the strike price, you subtract the strike price from the market price... and then you divide *that* by the strike price.
+
+The strike price is $10,250. Let's say the market hits 10,350.
+
+So we end up with (10350 - 10250) /10250
+
+100 / 10350
+
+0.0097560976
+
+Multiplying that by the 0.1 at the start of the formula gives 0.0009756098.
+
+So if it beats the strike price by $100, you get back around one quarter of what you gambled. To get 0.1BTC, the market price would have to beat the strike price by an amount equal to the strike price. So if Bitcoin were $20,500 on the 4th, you'd cash out your $1,000.00. 
+
+If it beats the strike price by $400 (so a $10,650 market price) you break even.
+
+These contracts are a fucking joke.
+I bought one....*on the Bitmex testnet*
+Max prize is more than $1000 bucks. If price is $12k by settlement, you made more than $1k. 
+
+Realised annualised vol is about 100 isn't it so that wouldn't be atrocious given the nascent market.
+Lol, too true 
+poignant, this speaks to me
+It is huge... On its way down this thing would be getting stopped out many ppl. I just hope it will break upwards.
+
+Why? Volatility can only affect you if you overleverage, don't think that's a concern for lt investors.
+I agree more details but this was coming since January 
+Gravity falls . . 
+I'm guessing people once the hype cools off are thinking twice before buying something at 9k when it was a less than 1k last year. Isn't it rational?
+>unless you've only been in the game for a few months.
+
+Hahahahhahahahahhaha. I've been in the game longer than you have. A noble try, I'll admit.
+
+
+That was last month.
+Wasn’t the jump from 6.8 to 7.8 pretty much due to one person making a large buy?
+the 17% candle in one hour strongly disagrees with you 
+that's true but i think driving up the price with slippage which actually increases the value of your holdings isn't as bad as selling on the way down.  Especially if you can squeeze some shorts along the way.
+A Star Wars name. 
+Hmm yeah the channel is slightly less forced than making a wedge.  Probably best not to search for meaning in either, I don't think either will really help us predict if we go to the top or bottom of the larger pennant/triangle next.  (both would say top for now though...)
+
+Nice job completing your scalp of the weekend buys!
+The support of the largish pennant/symmetrical triangle is about 8950 the way I have it drawn.   I could imagine it going down there and still bouncing up.
+
+By local lower low did you mean since the previous bounce off support, or do you mean relative to  the larger time frame of the larger formation?
+
+It sounds like you don't have confidence it will iterate one more time in here?
+Can you explain why you wouldn’t take that move yourself? I was thinking the same thing from a  R/R standpoint this would be a good entry to short, it it just because you are in a position already?
+> a catastrophic prediction
+
+HA! So lots of people got pissed at him then
+
+Volume profile is correct as well.
+I didn't cut any wicks, and doing so pushed it out to May 7/8 closing of the triangle. We're not spending 5 more days in this narrowing range, though, and that's as certain as it gets in the crypto world. 
+Thats basically what my plan is, staggering the buys on the way down but if we go too low i'll jump ship. 
+$200 price movements.
+
+Use stops. Be cognisant of other timeframes when making your trades.
+Well put. And for good or bad, alts will be one of the defining factors for crypto future. Some or at least one of them HAS to amount for something - market will not wait forever. My personal opinion is that we will see more disasters than successes in that space, but who knows.
+Based on his other comments, it would appear that we are actually making different arguments. 
+
+He seems to be of the opinion that alts pumping while btc meanders implies that investors are abandoning btc in favor of alts. 
+
+And at face value, that's a pretty fair argument. They could be buying btc, but they're choosing to buy alts instead. 
+
+My argument, however, is that btc can (and in my opinion will) continue to make slow and steady gains (relatively speaking) as alts follow the usual pump and dump mania associated with that space.
+
+People buying alts in droves is "good for bitcoin," as investors will ultimately funnel that money back into BTC once alt mania dies down.
+Also possible, although I'd hardly call the last few weeks "boring." 
+
+Bitcoin moved up approximately 50% from the low at $6,400 to $9,750. All in about a month. 
+
+I guess if you're looking to see 200%+ gains (or lose 100% of your investment) in the span of 48 hours, then sure, maybe the already breakneck volatility of btc isn't your cup of tea and alts are the answer.
+You aren't being impolite at all, and alts are generally not a significant focus for me. 
+
+I maintain some level of awareness in regards to what they are doing, but I don't make any trading decisions based on their behavior.
+
+As far as I'm concerned, I don't much care whether or not there's a flippening. If btc crashes to the ground while alts skyrocket, then I'll be shorting the ensuing btc fiasco rather than jumping onto alts — simply because I'm very confident trading btc and have no plans to move out of a space I'm familiar with into a space I'm not.
+
+So perhaps my opinion isn't necessarily biased as it is underinformed.
+It's a 2-way street though. Once the alts slow down and people take profit / panic-sell, that money will flow back into BTC. 
+got it. i wonder how long people hold btc on average if their intent is to just buy alts. i would assume they'd buy btc then immediately buy their alts? if so, the btc price wouldn't experience a net gain if it's being sold for alts right away. that's just speculation on my part though
+I'm confident the only reason I played that well was that I set up my targets for my adds (8920 & 8840) and walked away haha. I did push the slider from 5x to 6x though to free up more for the buys I wanted, which was pretty risky. As chewy says...it's like trying to put out a fire by throwing matches at it. I feel your pain though. I bailed on that 8750 long that could have been an excellent long-term hold. 
+
+I very very nearly closed my 6410 long at 9K yesterday, but I held that one too.
+
+I've also been messing around with a bot for fun. It's pretty interesting, but it's only live with a tiny balance, which limits its functionality. It's averaged 1.5%-2% daily BTC growth. Hoping we get a nice pop here so I can justify throwing a fraction of profits at it. 0.1BTC * 1% daily growth * 365 days = 3.778 BTC. Hell, even 0.5% daily average is 0.617 BTC. 
+Yeah I'd be worried for longs if we head near the bottom of the symmetrical triangle before testing the top near 9.3.
+Buy spot btc and short equivalent amount on xbtusd. But you'd be receiving the difference in usd and btc rate and even paying funding on some days.
+[removed]
+Yep. was here when BTC was 600$. So what's the issue? and they say at that time I was foolish.
+
+Not doubting just trying to understand. The photo you uploaded shows about 10 BTC bought and sold within 5min of each other, am I reading that right? How do they get the BTC transferred from bfx to cb that fast? Or do they not need to?  Appreciate the eli5
+I think he meant Stoch RSI, Chewie. Although RSI is also nicely resetted.
+Thanks. Upvotes all around!
+No point in concerning yourself with other people's concerns about another man''s wealth 
+Not concerning myself with another "man"'s wealth, I feel like $2M+ is only a matter of time and I'm merely hoping I can stockpile more and more before then.
+
+Were you not here last month?
+Never understood 'millionaires' commenting about noobs
+If they're looking to trade with leverage, they'll short just as readily with every $20 dip. 
+This is not true and is the main reason i went long from 6.5 besides a few other factors. I don't do TA but the trends don't lie. Everyone thought BTC was going 3k or less, it means it's time to buy. 
+you want us to take your word for it? Lol.
+Somebody on here had an uncle that joined a Facebook group called the bitcoin bears.  The uncle asked the poster how to short bitcoins.  
+Right on brother.
+Kraken is also below bitfinex, for weeks has been above. Still dont know what to think about it.... 
+We're at 48 of 76 4hr bars into the triangle (as i have it drawn), round about 60%. Wouldn't that be the textbook place for a breakout?
+My symmetrical triangle appears to have sharpened sincea couple days ago and it looks like the Apex right now
+>Borrowing tens of millions at a 50% APR... what could possibly go wrong?
+
+Not much considering they can cancel the expensive funding orders and take some cheaper ones anytime without substantial penalty. 
+[removed]
+[removed]
+What is BGD
+http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:relative_strength_index_rsi
+
+then ctrl+f "oversold"
+the 1 minute candles are critical .. lol.
+
+I had some targets here:  https://www.reddit.com/r/BitcoinMarkets/comments/8g5owl/daily_discussion_tuesday_may_01_2018/dyajo3j/
+
+I expect some chop based on that triangle.  Maybe 9300 now, then back to 9kish. 9400 would breakout that triangle.  9400 area is fairly strong resistance, so I'd still expect to chop back down with the apex or resistance of the triangle becoming support.  Or perhaps that horizontal line area in upper 8800s would be the next support.  I don't expect any straight shots from here to 10k.
+I prefer sausage mcmuffin with egg
+If somebody like GDAX or Gemini started offering debit cards (to draw off USD account) and either paper checks and/or online bill pay, I don't think i would care to use a bank for any of this anymore.
+Yeah, I got lucky when I retreated to fiat at the first sign of the dump from 19k. It was then that I realized the exits would be crowded. I held some alts at that time and even though I responded quickly I still got massacred during the time it took to convert to LTC to send to GDAX and cash out. 
+
+The antithesis to this is people living completely within BTC, and caring only about Satoshi value, but to me that is only feasible if you were around in bitcoin in the old days are your base investment is already up many multiples of your initial investment and you are only dealing in degrees of profit with a loss only a distant daydream. 
+Cheers brother! There are many of us, I suspect. 
+I'm thinking breakeven stops on my 9115 long are a given at this point. 
+70 technically.
+
+With two billion a month and limited oversite you can make money in both directions. I'm fairly certain the use a number of strategies to liquidate and buy coins (remember thet also serve large mining ops and exchanges -not just big purchasers).
+...? Circle is one of the only fully regulated OTC vendors..  wtf are you smoking?
+Not to mention GS is an investor in Circle (the lead for their c round).
+
+
+deleted  ^^^^^^^^^^^^^^^^0.8962  [^^^What ^^^is ^^^this?](https://pastebin.com/FcrFs94k/72541)
+I don’t think there is. This is also a very misconstrued fact lol, as most OTC transactions are arb’d out through exchanges or other means. But still more likely than an exchange imo. 
+They make money even when their customers lose tho
+Why now? These guys have known about and stared at sub $1k BTC for the last 4 years. Just bc the public got the hint and jumped on board and spiked this thing like crazy doesn’t mean they suddenly feel the FOMO too. 
+
+Sure, there’s def some institutions getting their feet wet rn and crypto hedge funds and what not. But this continues to remain an extremely risky and speculative investment. Furthermore, what has changed over the last couple years besides public awareness and much higher valuations? We have futures (good start) and we’re def moving towards acceptance in the financial world. But fundamentally speaking, not a whole lot has changed that makes cryptocurrencies a viable option as a store of value or a means of payment or a means of anything rn. THE POTENTIAL is through the roof - don’t get me wrong. But there’s still just too much downside risk and lack of application for most big money managers and banks to get on board (imo). 
+“This fun has been manipulated. I’m in fiat for now. “
+It's not a boring day at all with the price action.
+I guess he's following the trend like the other Twitter TA guys that are launching their own paid content.
+"Big bears" "money to waste" "give me a discount" 
+
+Mate, you are hilarious.
+Which SMA on which timeframe are you watching?
+Time to go long on USD then
+;D
+[removed]
+Even touching the upper 15m band would break above the resistance line I'm watching:
+
+https://imgur.com/a/gFuhzEG
+If $250 per BTC is deep stop then you're over leveraged...
+Eh, I wouldn't worry about it. Looks like it's breaking up.
+I lose 10% of the BTC I own, flip a table or two, drink heavily for a few hours, sober up, move 10% of the leftover coins from cold storage to Bitmex and keep going like nothing ever happened. 
+15 min bottom BBand and closest support is currently pierced, we'll see if that holds up.
+
+Mostly monitoring it for funsies though, still not going to make any major action until 8.8k or 9.4k is broken.
+Interesting. I haven't ever noticed much difference between your charts (stamp) and my charts (finex), but this particular support line is notably different on finex: https://www.tradingview.com/x/nj1WjvXD/
+GDAX has just the wick passing through 
+ 
+[https://imgur.com/a/3ppHUpS](https://imgur.com/a/3ppHUpS)
+I have us breaking through ( Finex) from what i thought was a rising wedge, now the support line is acting as resistance 
+
+https://www.tradingview.com/x/FC44ItDo/ 
+
+( Zoomed in ) 
+
+Am I not charting this right? Is this not a rising wedge? 
+Right? Especially after all the consolidation + Bbands being as tight as they are and once again rejected at our new resistance line.. 
+
+Was expecting a violent dump sub 9k 
+This is actually kind of insane. Watching this play out is the most fun we've had all day!
+Yea I mean it's certainly plausible, just impossible to know if it's insider knowledge of some fud about to come out or just a guy who decided it's easier to cash out on GDAX instead of using BFX to exchange USDT to USD (is that even possible?).
+[deleted]
+> If price is ~~$12k~~ by settlement, you made more than $1k  
+
+Check your math again.  
+
+You’re probably thinking that the specs say that you’d *make* 0.1 XBT, which is incorrect. The settlement price is the maximum of zero and ⅒ × 1 XBT × the percent distance the TWAP₃₀ is away from the strike price.  
+
+The 30 min average price would have to be at least $20,907 at some point within the next 48 hours for you to make $1000 from buying 1 contract. 
+
+Huge swings of \+/\- 10&#37; are the norm in crypto, maybe a little less in BTC specifically as of late.
+
+As an investor, you'd rather have a relatively less volatile market, so that you could make more reactionary choices would you not?
+[deleted]
+OK well then it's strange that you think volume is low. It was $50 million a day not so long ago. It will be $50 billion a day soon enough and much more than that in a few years. 
+
+If you're a time traveler from the future, volume is low. But if your memory goes back more than six months, volume is not so low.
+Yes, several large buys. 
+No. 
+Oh nvm thought this was a dif reply. I'm sure there are cases. Like the dumb "pump group s" that try and manipulate low volume times. But I'd much rather run a bot that buys a bitcoin every x amount so I can accumulate at a lower price
+Also people sometimes stop loss/buy hunt around resistance prices to trigger them to their advantage. 
+Still working inside the channel. At least it's definitely not an ascending wedge at this point.
+
+https://www.tradingview.com/x/8LZQabPF/
+I mean lower low in respect to the drop we saw a few hours ago to $9,000. 
+Because I'm personally of the opinion that this is going to break up. 
+
+I could be wrong though, of course, but I'm not about to close my long and hop into a short here.
+Love his predictions, but being accurate about BTC going up in the long term has historically been quite a safe bet....
+Although the addition of more and more fiat pairs and the maturing of a *select few* alts into potential stand-alone players further lessens the effect on BTC, IMO. 
+Yeah I misread his argument, it seems he's making some of the same observations just not anywhere close to the same conclusions (and my thinking is more in line with your's).
+
+I don't really think they "could be buying btc but are buying alts instead" is the right way to think of it. It's more like "they're buying btc in order to buy alts." I've always disagreed with the "funneling money" theory. The money currently in alts is already in BTC as buying an alt is essentially a double spend - you buy BTC with fiat then alts with BTC. There is no fiat in alts that isn't already incorporated into BTC's price aside from the direct fiat -> alt on ramps.
+That's what I'm saying. Boredom wasn't very well chosen. There's a lot of hype teams out there. It makes me sound old but Telegram, and Discord channels are pumping and driving people around exchanges like a game of whack-a-mole!
+> If btc crashes to the ground while alts skyrocket, then I'll be shorting the ensuing btc fiasc
+
+
+> So perhaps my opinion isn't necessarily biased as it is underinformed
+
+That's fair then. I just thought you were somewhat biased because of your cold storage that you have because you believe BTC will be THE winner. Being comfortable in a market is definitely more important although I'd argue that recent market movements weren't as common before. 
+That's true. Therefore I won't be surprised to see a temporary rise in BTC price (probably to above 10k) at the end of the alt season. But I think people who sell alts won't hold that BTC for too long.
+I used BTC to buy alts when I was new to crypto, however I've since moved to using ETH.  Part of his statement I see as valid if we're talking new players in the game, however I would think that most seasoned crytpo traders/buyers are using a faster currency than BTC to buy their alts.  Idk.  It sometimes feels like forex traders might have some insight into how these things play out with trading pairs although transaction speed is only relevant in the crypto space.
+My opinion is that market makers don't have an intention to hold BTC longer than needed. The purpose of pumping alts has usually been to gain USD rather than BTC.
+[removed]
+Betting on an outcome isn't necessarily foolish, pretending it's a sure thing is.
+Yeah, but was referring to the totals from past 2 hours during the mini pamp when the spread became very apparent. Network is pretty quick right now they could probably have the coins xferred in less than 20 mins. Oh any they don't need to do things instantly.... its probably an ongoing process through many xfers/orders if they are doing this. 
+He did mean Stoch RSI, apparently, although his initial post referenced RSI before he edited it.
+$2M, I don't want to offend you but what makes you think btc will be at 2m each 
+100k maybe 2 million will never happen
+so the bearish sign is newbs discovering leverage/shorting for the first time, is what you're saying.  As opposed to just being long/hodl?
+
+no. but we'll find out anyways. it's just an observation. i'm not overly bearish. just want to see 9.4 broken before i make my next move.
+I thought we were farther into it 
+I have basically the same count, and the next 4hr bar was my target for potential breakout. (when I targeted it I looked at daily and eyeballed 75%, then zoomed in and put it at 0:00utc)
+So paying penalties plus interest is a winner's game! OK, I get it.
+[removed]
+[removed]
+It stands for Big Green Dildo. It's the currently popular stupid name for a large [candlestick](https://www.investopedia.com/articles/technical/02/121702.asp) that is green.
+Big Green Dildo(Candle)
+LOL
+Try the mcgriddle 
+Interesting concept, I like it!
+Same!!
+Very similar thoughts, especially since I remain bearish on the current market outlook (albeit less so than I did a few weeks ago). More BTC is nice, but more BTC is not what I want if this is the beginning of a prolonged beat market period. I’ll take that fresh fiat to load the boat (if it makes sense to) when and if that day comes. 
+Yep.  Deposit insurance is a must have.
+Gdax really wants out wow $70 discount o_O
+I would risk 9080 or so just to see if the downtrend holds as support. If we bounce there i might go long. 
+technically it depends on the trend. During uptrend it's advisable to view 80 as overbought, and during downtrend  20 as oversold. The trend should be defined within the timeframe you're using
+A bunch of people here don't understand sarcasm.
+If the big dawgs are on OTC, why are you using GDAX and such as evidence that institutions aren't buying? They wouldn't be buying there anyway, they'd be buying OTC.
+
+Not saying institutions are/aren't buying, just pointing out the flaw in your logic.
+True that.
+lol
+Yes it is. We're just range-bound, with bbands tightening. Today (and the past few days) have been boring af. We're all just waiting for the price to pick a direction. How can you describe *this* as anything but boring?
+People do anything to justify they're right
+Yeah, I'm a fuckin laugh riot... who is pretty rich and getting richer.
+nah... i like my 1000000x gainz on Zombabwe dollars
+[removed]
+Looks broken ;-)
+
+I know... Too soon..
+Nice, thanks.
+I'm only 5x leveraged, but I see your point. $250 here is 2.7% * 5x = 13.5%, which is a decent hit, but I can work with that. I've got our support at 8880. With futures at a premium, $250 under CA (9115) is 8865. Probably a good stop. Thanks for the clarity. 
+
+Maybe BTC will just break up here like it's trying to, though. 
+Hit resistance exactly on my chart just like it hit support on the fakedown for now. BTC troll level over 9000. Let's see if it can plow through. 
+But supposing it breaks down in a little while?
+This man is a trader!
+Sometimes all it takes is one chucklehead on a single exchange to violate a pattern that's still intact on every other exchange. 
+
+That's one of the reasons I usually preach to wait for confirmation before entering a position (although I don't always practice what I preach).
+Well, I'd argue the resistance line I have drawn is more significant than any resistance line one might draw to create a wedge pattern instead of a triangle. 
+
+But as far as rising wedges go, they're pretty difficult to trade. For example, you could make the argument that the support line for your hypothetical wedge should actually be drawn thusly:
+
+https://imgur.com/a/SQmUehR
+
+In this case, the market broke down a few hours ago and has been trying (unsuccessfully) to break back in all day. 
+
+The problem with rising wedges is that this behavior is quite common. The market may continue to hug the former support line and continue climbing before dropping. 
+
+And of course, it might not ever drop at all. 
+
+
+I would consider that much too shallow of a "wedge" to be classified or traded on as a wedge. 
+We didn't test the new resistance line, and I don't really think that was a wedge. There aren't the market factors present here to dump sub 9K with conviction unless we get a volume swell. Doesn't even have to be a huge volume swell.
+What kind of degenerate morons would buy these things? They would be shorted into the abyss if it were possible.
+These minor fluctuations will not matter in the long run if bitcoin reaches 100k+ in a couple of years.   What’s a few thousand up or down matter then. 
+That's what I wanna see!
+I don't have a strong personal bias toward btc over another crypto currency necessarily. 
+
+It's simply a market I know and understand quite well at this point. 
+
+When it's time to sell everything, I won't hesitate to do so. Whether that's because I'll have attained "fuck you" money or because bitcoin is failing fundamentally doesn't really matter.
+You can open random alt on cmc and see volumes in volume tab. Btc dominates volumes across the board. Not that I dont agree and use eth, I do, but majority dont.
+[removed]
+word. Preciate it
+21 million bitcoins / 7 billion people = 0.003 btc/person
+global average wealth per adult = $56541
+
+56541$/person / 0.003btc/person = $18,847,000/btc
+
+If bitcoin is replacing all moneys then $2M/btc is not enough.  I don't take this position.  I just like doing ridiculous speculation math.
+The hope that having 0.5 btc will give you fuck you money 
+I don't see it as bearish. Just as a concerning market trend leading to higher volatility and a transference of more BTC into the hands of people with the most BTC already.
+>So paying penalties plus interest is a winner's game! OK, I get it.
+
+Yes, when the interest adds up to substantially less than expected earnings. 50% annual interest rate is palatable to many when the expected loan duration is under two days (0.27%). Note that the price of Bitcoin has increased by 8% during that same time frame. 
+[removed]
+they usually occur when a lot of people are short and it.. well
+hurts.. where the sun dont shine.  It's a corollary of the max pain hypothesis.
+
+
+We're going to get a BGD most likely
+I am in complete agreement with you. I don’t take it as a given that BTC will necessarily rise, it could ride sideways, or even drop in value relative to today. Since it is speculative there is only metcalfe’s to use as a suspected valuation and there is much debate. I definitely don’t want tens of thousands of fiat underwater for months or more. 
+
+Furthermore we have no resolution from the SEC/CFTC regarding securities and possible associated enforcement, which could create major market upheaval particularly if exchanges (unlikely) have to delist or restrict US access. 
+
+The only altcoin positions I take are either harrowing interday trades, or a well placed true long. 
+Seriously.
+True. On June futures though so I should be at a premium anyway. 
+deleted  ^^^^^^^^^^^^^^^^0.3702  [^^^What ^^^is ^^^this?](https://pastebin.com/FcrFs94k/63004)
+$9200 is a lot more exciting than $8950.  But needs to take out $9260 with confidence.
+I dunno, I'm pretty stoked about it
+Only 5x? Damn...
+My personal sentiment is he should set his stops at break even. If it does break down then it's probably going to break down pretty hard after faking out to the upside.
+
+I don't see this breaking down, although that's just me.
+Upvote for saying chucklehead. 
+
+And also making a valid/good point. 
+Blah. Still learning, i thought I had it. 
+
+Well getting closer and closer, at least I have the general idea 
+And sadly, $1M is not really FU money anymore. If you want to retire and be able to afford health care and decent housing, it’s just not enough.
+
+Even at a 4% withdrawal rate, that’s only $40k/year income. Going forward, with decreasing yields and increasing uncertainty, I wouldn’t be surprised if 3 or 3.5% become the new 4%.
+
+If you had $30-35k of passive income, you’d still be working to improve that in most parts of the country.
+Well, I can get trash cash a lot more cheaply, but, hey, you do you.
+[removed]
+Could just as easily be a BRD if Mr. Dumperson finds more coins to dump at market prices.
+You're probably fine for now, Gdax just being illiquid 
+Fair enough, do you have evidence/sources for that? Genuinely curious.
+
+Because I would think they'd go through Circle or a mining operation, but then again I'll admit I have little knowledge of how institutions operate especially in relation to BTC. I will agree that I don't really think this is them accumulating, just skeptical of people saying it's definitively not as well.
+It's still just range bound. It's starting to move a bit but nothing substantial has happened yet.
+I'm not sure how to take this. haha
+He's running a tight ship!
+
+I'm 100% 5x but normally do 2~3x, so a loss on a 250 price delta now would take me some time to grind back.
+I suppose the big 5 min candle from the weekend still has me nervous. Worse than the BGC.
+
+However, in defense of this breakout (which isn't exactly rocketing like I thought) the support is pretty well defined and was retested before breaking the descending resistance.
+
+I'm long from $9,150 FWIW.
+
+
+If you subscribe to the belief that TA works in large part because a lot of people use it and trade accordingly, then a good rule of thumb is that the less you have to squint at the chart to make it work, the higher likelihood it will go that way. If a couple degrees of difference in slope changes it from a channel to a wedge, it's probably not much of a wedge. 
+
+At this point, I have a ticker up on my 3rd screen at work all day, and even if I'm not charting, half the time I'm mentally tracking what pattern is being painted. It just comes with time.  
+I agree, and I def think I'll make some great money, but not fuck you money and I'm totally okay with that. It's nice just have a little nest egg to supplement your income 
+The price is always "range bound".  It has been range bound between $0 and $20,000 for the last 9 years.   But yes it is more significant if it makes a bigger move up or down and breaks resistance or support.
+5x is high lev, so using 'only' here is probably inappropriate.
+
+But that's me. I usually go 3x on mex stack, add more only when in profit and stops at be.
+
+But my mex stack is rather small. I freak out when I go 2x on my USD stack.
+I think he's surprised that your considering setting stops so tight when you're only using 5x leverage.
+Do you that from the ticker (price) only or from the transactions log?
+That's not what's meant by the term.
+You forgot the /s :-P
+
+I consider 5x as high leverage.
+Ah. Well, I'm of the opinion that <8800 probably means 8400 if not 7800, so I have to draw a line in the sand somewhere. I try to keep stops under 2% with 5x leverage. 10% stack hits are painful. 
+I must be really uptight then, anything above 33% stack and i stop at 2% max... Specially after losing 50%. 
+Price only. Obviously looking at the chart is significantly more helpful, but I find having the ticker helps me identify ascending/descending triangles particularly. 
+I know what it means and clearly I'm not looking at the same "range" that you are.
+Depends on the size of your trading stack vs your total stack. If it's 10% or less, I'd say 5x is rather reasonable
+Well, at this point there's a solid argument for setting your stops at breakeven. 
+
+The market has already broken out to the upside. So it's either going to collapse on itself due to a fakeout, or it's going to keep on trucking to the upside.
+It depends on how much you can lose overall, which in case when you have other stack than the trading one is true. I don't have holding stack. I've started with USD amount, made some profits and now my BTC stack is around 30% of my total trading stack. My other holdings are out of crypto. So going 5x with my whole trading stack and losing 250 per BTC would hurt like hell so this is over leveraged for me.
+Indeed. Hooray for the paradigm shift. Makes me a happy camper. 
+It's hard to shake the memories of Bartcoin
+
+*shudders*

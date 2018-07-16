@@ -13,21 +13,20 @@ for submission in subreddit.search('Daily Discussion', time_filter='all', sort='
     if not submission.stickied:
         if '[Daily Discussion]' in submission.title:
             fileNumber += 1
-            if fileNumber>40:
-                print(submission.title)
+            print(submission.title)
 
 
-                submission.comments.replace_more(limit=None)
-                allComments=submission.comments.list()
-                print(str(len(allComments)))
+            submission.comments.replace_more(limit=None)
+            allComments=submission.comments.list()
+            print(str(len(allComments)))
 
-                with open(str(fileNumber), "w", encoding='utf-8',
-                      errors='ignore') as f_all:
-                    f_all.write(submission.title + " -- TITLE\n")
+            with open(str(fileNumber-1), "w", encoding='utf-8',
+                  errors='ignore') as f_all:
+                f_all.write(submission.title + " -- TITLE\n")
 
-                    for comment in allComments:
-                        f_all.write(comment.body + "\n")
-    if fileNumber==70:
+                for comment in allComments:
+                    f_all.write(comment.body + "\n")
+    if fileNumber==50:
         print("BYE BYE")
         break
 
